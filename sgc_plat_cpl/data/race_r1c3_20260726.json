@@ -1,0 +1,244 @@
+{
+  "informations_course": {
+    "hippodrome": "Mont-de-Marsan (Hippodrome des Grands Pins)",
+    "nom_et_numero_course": "Prix Le Journal \"Le Veinard\" — Réunion 1, Course 3 (R1C3)",
+    "date_et_heure": "Dimanche 26 juillet 2026 à 15h25 (CEST)",
+    "distance_m": 2000,
+    "discipline": "Plat",
+    "handicap": "Oui (Handicap divisé, première épreuve, référence +19,5)",
+    "classe_course": "Classe 2",
+    "allocation_totale": 50900,
+    "allocations": {"1": 25450, "2": 9672, "3": 7126, "4": 4581, "5": 2036},
+    "nombre_declares": 16,
+    "nombre_partants": 15,
+    "non_partant": 1,
+    "sens_corde": "Droite",
+    "longueur_piste_m": 1945,
+    "ligne_droite_avant_1er_tournant_m": 375,
+    "ligne_droite_finale_m": 425,
+    "penetrometre_jour": 3.35,
+    "temperature_c": 24.5,
+    "vent_kmh": 20.5,
+    "vent_direction": "O/OSO"
+  },
+  "reference": {
+    "temps_classe2_2000m_sec": [124.8, 126.1],
+    "variante_piste_sec": 0.3,
+    "biais_corde": {
+      "1-6": {"desc": "avantage geometrique", "top3_pct": 38.5},
+      "7-11": {"desc": "neutre"},
+      "12-16": {"desc": "desavantage tactique"}
+    }
+  },
+  "chevaux": [
+    {
+      "numero": 2, "nom": "MORPHEWAN", "age": 6, "sexe": "M", "poids_porte": 60.0, "valeur_handicap": 40.5,
+      "corde": 8, "jockey": "Hugo Besnier", "entraineur": "Patrice Cottier",
+      "masse_corporelle": 495, "rythme": "animateur",
+      "equipement": {"oeilleres_australiennes": true, "premiere_fois": []},
+      "cote_pmu": 10.0, "cote_zeturf": 6.2, "cote_genybet": 18.91,
+      "jockey_stats": {"taux_victoire": 0.20, "taux_top3": 0.53, "reussite_cheval": 0.20},
+      "entraineur_forme": "7p-13p-5p-6p-2p",
+      "historique": [
+        {"date": "2026-05-31", "hippodrome": "Chantilly", "distance": 2000, "terrain": "Bon", "classe": "Cl.1 Hand.", "allocation": 53000, "partants": 16, "corde": 6, "poids_porte": 59.5, "place": 7, "ecart": 2.5},
+        {"date": "2026-04-15", "hippodrome": "Divers", "distance": 2000, "terrain": "Bon/Souple", "classe": "Cl.2 Hand.", "allocation": 53000, "partants": 16, "corde": null, "poids_porte": 60.0, "place": null, "ecart": null, "note": "place multiple 0,5,6,2 - non exploitable comme run unique"}
+      ]
+    },
+    {
+      "numero": 3, "nom": "MAGELLAN", "age": 6, "sexe": "H", "poids_porte": 60.0, "valeur_handicap": 40.5,
+      "corde": 13, "jockey": "Clément Lecoeuvre", "entraineur": "Francis-Henri Graffard",
+      "masse_corporelle": 485, "rythme": "attentiste",
+      "equipement": {},
+      "cote_pmu": 4.3, "cote_zeturf": 5.7, "cote_genybet": 3.98,
+      "jockey_stats": {"taux_victoire": 0.23, "taux_top3": 0.58, "reussite_cheval": 0.60},
+      "entraineur_forme": "1p-1p-2p-3p",
+      "historique": [
+        {"date": "2026-06-01", "hippodrome": "Cholet", "distance": 1900, "terrain": "Bon", "classe": "Cl.3", "allocation": 13700, "partants": 10, "corde": 6, "poids_porte": 57.0, "place": 1, "ecart": 0.15},
+        {"date": "2026-05-03", "hippodrome": "Le Pin au Haras", "distance": 2200, "terrain": "Bon", "classe": "Cond.", "allocation": 8000, "partants": 7, "corde": 2, "poids_porte": 57.0, "place": 1, "ecart": 1.5},
+        {"date": "2026-04-10", "hippodrome": "Saint-Cloud", "distance": 2000, "terrain": "Bon", "classe": "Cl.3", "allocation": 16500, "partants": 8, "corde": 1, "poids_porte": 57.0, "place": 2, "ecart": 1.25},
+        {"date": "2026-03-17", "hippodrome": "Fontainebleau", "distance": 2200, "terrain": "Souple", "classe": "Cl.3", "allocation": 16500, "partants": 9, "corde": 6, "poids_porte": 56.0, "place": 3, "ecart": 0.5}
+      ]
+    },
+    {
+      "numero": 4, "nom": "ROMAN FORUM", "age": 4, "sexe": "H", "poids_porte": 59.0, "valeur_handicap": 39.5,
+      "corde": 2, "jockey": "Ioritz Mendizabal", "entraineur": "Charles Gourdain",
+      "masse_corporelle": 470, "rythme": "animateur",
+      "equipement": {},
+      "cote_pmu": 14.0, "cote_zeturf": 14.5, "cote_genybet": 20.80,
+      "jockey_stats": {"taux_victoire": 0.12, "taux_top3": 0.40, "reussite_cheval": 0.33},
+      "entraineur_forme": "1p-3p-3p",
+      "historique": [
+        {"date": "2026-06-15", "hippodrome": "La Teste", "distance": 1600, "terrain": "Bon", "classe": "Qualif.Hand", "allocation": 17400, "partants": 12, "corde": 1, "poids_porte": 56.0, "place": 1, "ecart": 0.3},
+        {"date": "2026-04-27", "hippodrome": "Bordeaux", "distance": 1600, "terrain": "Bon", "classe": "Cl.2 Hand.", "allocation": 52800, "partants": 16, "corde": 4, "poids_porte": 55.5, "place": 3, "ecart": 1.2},
+        {"date": "2026-02-15", "hippodrome": "Divers", "distance": 1600, "terrain": "Bon/PSF", "classe": "Hand./Cond.", "allocation": 20000, "partants": 12, "corde": null, "poids_porte": 56.0, "place": 3, "ecart": null}
+      ]
+    },
+    {
+      "numero": 5, "nom": "DSCHINGIS DREAM", "age": 5, "sexe": "M", "poids_porte": 59.0, "valeur_handicap": 39.5,
+      "corde": 3, "jockey": "Mickaël Foulon", "entraineur": "Oscar Anaya",
+      "masse_corporelle": 505, "rythme": "animateur",
+      "equipement": {"rentree_longue_absence_mois": 3},
+      "cote_pmu": 28.0, "cote_zeturf": 36.5, "cote_genybet": 49.72,
+      "jockey_stats": {"taux_victoire": 0.11, "taux_top3": 0.37, "reussite_cheval": 0.25},
+      "entraineur_forme": "1p-4p-0p",
+      "historique": [
+        {"date": "2026-04-22", "hippodrome": "La Teste", "distance": 2000, "terrain": "Bon", "classe": "Hand.", "allocation": 19200, "partants": 14, "corde": 5, "poids_porte": 62.0, "place": 1, "ecart": 0.5},
+        {"date": "2026-02-20", "hippodrome": "Pau", "distance": 2000, "terrain": "PSF", "classe": "Cond.", "allocation": 16500, "partants": 9, "corde": 4, "poids_porte": 58.0, "place": 4, "ecart": 0.75},
+        {"date": "2026-01-02", "hippodrome": "Pau", "distance": 1600, "terrain": "PSF", "classe": "Hand.", "allocation": 22100, "partants": 13, "corde": 8, "poids_porte": 59.5, "place": 12, "ecart": 8.0},
+        {"date": "2024-05-04", "hippodrome": "Angers", "distance": 2300, "terrain": "Tr.Souple", "classe": "Cond.", "allocation": 21000, "partants": 11, "corde": 10, "poids_porte": 58.0, "place": 1, "ecart": 6.5}
+      ]
+    },
+    {
+      "numero": 6, "nom": "PRESA DIRETTA", "age": 7, "sexe": "F", "poids_porte": 58.0, "valeur_handicap": 38.5,
+      "corde": 9, "jockey": "Aurélien Lemaitre", "entraineur": "A. Carrasco-Sanchez",
+      "masse_corporelle": 460, "rythme": "attentiste",
+      "equipement": {"rentree_longue_absence_mois": 3},
+      "cote_pmu": 16.0, "cote_zeturf": 19.4, "cote_genybet": 12.38,
+      "jockey_stats": {"taux_victoire": 0.13, "taux_top3": 0.42, "reussite_cheval": 0.20},
+      "entraineur_forme": "4p-3p",
+      "historique": [
+        {"date": "2026-02-20", "hippodrome": "Pau", "distance": 2000, "terrain": "PSF", "classe": "Cond.", "allocation": 16500, "partants": 9, "corde": 2, "poids_porte": 56.5, "place": 3, "ecart": 0.5},
+        {"date": "2025-11-15", "hippodrome": "Divers", "distance": 2000, "terrain": "Lourd/PSF", "classe": "Hand./Cond.", "allocation": 20000, "partants": 14, "corde": null, "poids_porte": 58.0, "place": 12, "ecart": null}
+      ]
+    },
+    {
+      "numero": 7, "nom": "MAX VERST", "age": 7, "sexe": "H", "poids_porte": 56.5, "valeur_handicap": 37.0,
+      "corde": 12, "jockey": "Hugues Boutin", "entraineur": "R. Fradet",
+      "masse_corporelle": 480, "rythme": "attentiste",
+      "equipement": {"attache_langue": true},
+      "cote_pmu": 17.0, "cote_zeturf": 33.2, "cote_genybet": 14.02,
+      "jockey_stats": {"taux_victoire": 0.11, "taux_top3": 0.38, "reussite_cheval": 0.16},
+      "entraineur_forme": "8p-2p-6p-3p",
+      "historique": [
+        {"date": "2026-06-22", "hippodrome": "Lyon-Parilly", "distance": 2000, "terrain": "Bon", "classe": "Cl.2 Hand.", "allocation": 53000, "partants": 16, "corde": 11, "poids_porte": 56.5, "place": 8, "ecart": 3.0},
+        {"date": "2026-06-15", "hippodrome": "Longchamp", "distance": 1800, "terrain": "Bon", "classe": "Hand.Div.", "allocation": 27000, "partants": 16, "corde": 5, "poids_porte": 58.0, "place": 2, "ecart": 0.75},
+        {"date": "2026-05-18", "hippodrome": "Borély", "distance": 2000, "terrain": "Bon", "classe": "Cl.2 Hand.", "allocation": 53000, "partants": 15, "corde": 8, "poids_porte": 56.0, "place": 6, "ecart": 2.0}
+      ]
+    },
+    {
+      "numero": 8, "nom": "NOLITO", "age": 6, "sexe": "H", "poids_porte": 56.5, "valeur_handicap": 37.0,
+      "corde": 1, "jockey": "Gary Guedj-Gay", "entraineur": "Soledad Gavilan",
+      "masse_corporelle": 475, "rythme": "animateur",
+      "equipement": {},
+      "cote_pmu": 16.0, "cote_zeturf": 19.5, "cote_genybet": 20.80,
+      "jockey_stats": {"taux_victoire": 0.12, "taux_top3": 0.41, "reussite_cheval": 0.20},
+      "entraineur_forme": "1p-5p-2p",
+      "historique": [
+        {"date": "2026-05-25", "hippodrome": "Bordeaux", "distance": 1900, "terrain": "Bon", "classe": "Hand.", "allocation": 19200, "partants": 15, "corde": 3, "poids_porte": 56.5, "place": 1, "ecart": 0.75},
+        {"date": "2026-05-10", "hippodrome": "Longchamp", "distance": 2000, "terrain": "Collant", "classe": "Hand.Div.", "allocation": 33600, "partants": 14, "corde": 7, "poids_porte": 56.0, "place": 5, "ecart": 2.5},
+        {"date": "2026-04-12", "hippodrome": "La Teste", "distance": 2000, "terrain": "Bon", "classe": "Hand.", "allocation": 19200, "partants": 14, "corde": 2, "poids_porte": 56.0, "place": 2, "ecart": 0.05}
+      ]
+    },
+    {
+      "numero": 9, "nom": "NOUS Y SOMMES", "age": 4, "sexe": "H", "poids_porte": 56.0, "valeur_handicap": 36.5,
+      "corde": 15, "jockey": "Christophe Soumillon", "entraineur": "Nicolas Perret",
+      "masse_corporelle": 468, "rythme": "attentiste",
+      "equipement": {"raccourci_distance": true},
+      "cote_pmu": 13.0, "cote_zeturf": 20.0, "cote_genybet": 20.80,
+      "jockey_stats": {"taux_victoire": 0.20, "taux_top3": 0.52, "reussite_cheval": 0.24},
+      "entraineur_forme": "7p-5p-3p",
+      "historique": [
+        {"date": "2026-01-15", "hippodrome": "Divers", "distance": 2400, "terrain": "Bon/Souple", "classe": "Hand.", "allocation": 20000, "partants": 14, "corde": null, "poids_porte": 57.0, "place": 5, "ecart": null, "note": "moyenne des 3 places citees (7,5,3) utilisee, non le meilleur resultat"},
+        {"date": "2025-11-15", "hippodrome": "Divers", "distance": 2000, "terrain": "Souple", "classe": "Hand.", "allocation": 20000, "partants": 12, "corde": null, "poids_porte": 56.5, "place": 2, "ecart": null, "note": "moyenne des 3 places citees (2,3,1) utilisee, non le meilleur resultat"}
+      ]
+    },
+    {
+      "numero": 10, "nom": "BRITANIA", "age": 4, "sexe": "F", "poids_porte": 55.5, "valeur_handicap": 36.0,
+      "corde": 7, "jockey": "Maxime Guyon", "entraineur": "François Rohaut",
+      "masse_corporelle": 458, "rythme": "animateur",
+      "equipement": {"oeilleres_australiennes": true, "premiere_fois": ["oeilleres_australiennes"]},
+      "cote_pmu": 7.7, "cote_zeturf": 6.5, "cote_genybet": 7.34,
+      "jockey_stats": {"taux_victoire": 0.18, "taux_top3": 0.50, "reussite_cheval": 0.30},
+      "entraineur_forme": "0p-5p-5p",
+      "historique": [
+        {"date": "2026-06-10", "hippodrome": "Bordeaux", "distance": 1900, "terrain": "Bon", "classe": "Cl.2 Hand.", "allocation": 53000, "partants": 16, "corde": 9, "poids_porte": 55.5, "place": 11, "ecart": 6.0},
+        {"date": "2026-05-15", "hippodrome": "La Teste", "distance": 2000, "terrain": "Bon", "classe": "Hand.", "allocation": 27000, "partants": 14, "corde": 5, "poids_porte": 58.0, "place": 5, "ecart": 2.0},
+        {"date": "2025-11-15", "hippodrome": "Divers", "distance": 2000, "terrain": "Souple", "classe": "Hand.", "allocation": 20000, "partants": 12, "corde": null, "poids_porte": 57.0, "place": 2, "ecart": null, "note": "moyenne des 3 places citees (3,2,1) utilisee, non le meilleur resultat"}
+      ]
+    },
+    {
+      "numero": 11, "nom": "GEOPOLITICAL", "age": 4, "sexe": "H", "poids_porte": 55.5, "valeur_handicap": 36.0,
+      "corde": 10, "jockey": "Cristian Demuro", "entraineur": "Mario Baratti",
+      "masse_corporelle": 482, "rythme": "attentiste",
+      "equipement": {"retour_gazon": true},
+      "cote_pmu": 19.0, "cote_zeturf": 24.0, "cote_genybet": 23.09,
+      "jockey_stats": {"taux_victoire": 0.16, "taux_top3": 0.46, "reussite_cheval": 0.22},
+      "entraineur_forme": "0p-7p-1p",
+      "historique": [
+        {"date": "2026-04-28", "hippodrome": "Chantilly", "distance": 1900, "terrain": "PSF", "classe": "Cl.2 Hand.", "allocation": 53000, "partants": 16, "corde": 12, "poids_porte": 55.5, "place": 7, "ecart": 3.0},
+        {"date": "2026-04-15", "hippodrome": "Saint-Cloud", "distance": 2000, "terrain": "Souple", "classe": "Hand.Div.", "allocation": 27000, "partants": 15, "corde": 8, "poids_porte": 58.5, "place": 14, "ecart": 8.0},
+        {"date": "2025-11-15", "hippodrome": "Divers", "distance": 1900, "terrain": "Bon/PSF", "classe": "Hand.", "allocation": 20000, "partants": 12, "corde": null, "poids_porte": 57.0, "place": 3, "ecart": null, "note": "moyenne des 3 places citees (1,3,4) utilisee, non le meilleur resultat"}
+      ]
+    },
+    {
+      "numero": 12, "nom": "GEORGES VILLE", "age": 5, "sexe": "H", "poids_porte": 55.5, "valeur_handicap": 36.0,
+      "corde": 14, "jockey": "Alexandre Gavilan", "entraineur": "C. Hérisson de Beauvoir",
+      "masse_corporelle": 475, "rythme": "attentiste",
+      "equipement": {},
+      "cote_pmu": 29.0, "cote_zeturf": 28.0, "cote_genybet": 23.09,
+      "jockey_stats": {"taux_victoire": 0.10, "taux_top3": 0.34, "reussite_cheval": 0.14},
+      "entraineur_forme": "3p-8p-0p",
+      "historique": [
+        {"date": "2026-07-01", "hippodrome": "Dax", "distance": 2100, "terrain": "Bon", "classe": "Hand.", "allocation": 19200, "partants": 14, "corde": 10, "poids_porte": 58.0, "place": 3, "ecart": 1.0},
+        {"date": "2026-04-15", "hippodrome": "Divers", "distance": 2000, "terrain": "Bon/Souple", "classe": "Hand.", "allocation": 19200, "partants": 15, "corde": null, "poids_porte": 58.0, "place": 9, "ecart": null, "note": "moyenne des 3 places citees (8,10,8) utilisee"}
+      ]
+    },
+    {
+      "numero": 13, "nom": "XILOFONO", "age": 5, "sexe": "H", "poids_porte": 55.0, "valeur_handicap": 35.5,
+      "corde": 6, "jockey": "Vaclav Janacek", "entraineur": "Guillermo Arizkorreta Elosegui",
+      "masse_corporelle": 468, "rythme": "attentiste",
+      "equipement": {"oeilleres": true},
+      "cote_pmu": 8.1, "cote_zeturf": 12.0, "cote_genybet": 17.34,
+      "jockey_stats": {"taux_victoire": 0.17, "taux_top3": 0.48, "reussite_cheval": 0.28},
+      "entraineur_forme": "7p-2p-2p",
+      "historique": [
+        {"date": "2026-06-05", "hippodrome": "Angers", "distance": 2000, "terrain": "Bon", "classe": "Cl.2 Hand.", "allocation": 53000, "partants": 16, "corde": 5, "poids_porte": 55.0, "place": 7, "ecart": 2.0},
+        {"date": "2026-05-11", "hippodrome": "Tarbes", "distance": 2100, "terrain": "Souple", "classe": "Cl.3 Hand.", "allocation": 19200, "partants": 12, "corde": 3, "poids_porte": 58.0, "place": 2, "ecart": 0.05},
+        {"date": "2026-04-19", "hippodrome": "Toulouse", "distance": 2000, "terrain": "Bon", "classe": "Cl.3 Hand.", "allocation": 27000, "partants": 15, "corde": 4, "poids_porte": 57.0, "place": 2, "ecart": 0.5}
+      ]
+    },
+    {
+      "numero": 14, "nom": "SIEGLINDE", "age": 4, "sexe": "F", "poids_porte": 54.5, "valeur_handicap": 35.0,
+      "corde": 11, "jockey": "N.-M. Lopes Duarte", "entraineur": "D. Schoenherr",
+      "masse_corporelle": 452, "rythme": "animateur",
+      "equipement": {"oeilleres": true, "premiere_fois": ["oeilleres"], "attache_langue": true},
+      "cote_pmu": 50.0, "cote_zeturf": 16.0, "cote_genybet": 13.15,
+      "jockey_stats": {"taux_victoire": null, "taux_top3": 0.28, "reussite_cheval": 0.10},
+      "entraineur_forme": "7p-5p-3p",
+      "historique": [
+        {"date": "2026-07-17", "hippodrome": "Dax", "distance": 2300, "terrain": "Bon", "classe": "Hand.", "allocation": 19200, "partants": 9, "corde": 4, "poids_porte": 58.0, "place": 7, "ecart": 6.0},
+        {"date": "2026-06-15", "hippodrome": "La Teste", "distance": 2000, "terrain": "Bon", "classe": "Hand.", "allocation": 19200, "partants": 14, "corde": 8, "poids_porte": 58.5, "place": 5, "ecart": 2.0},
+        {"date": "2026-05-11", "hippodrome": "Tarbes", "distance": 2300, "terrain": "Souple", "classe": "Hand.", "allocation": 19200, "partants": 14, "corde": 2, "poids_porte": 57.5, "place": 3, "ecart": 1.5}
+      ]
+    },
+    {
+      "numero": 15, "nom": "SAINT HELLIER", "age": 7, "sexe": "H", "poids_porte": 53.5, "valeur_handicap": 34.0,
+      "corde": 5, "jockey": "Antonio Orani", "entraineur": "Patrice Cottier",
+      "masse_corporelle": 492, "rythme": "animateur",
+      "equipement": {},
+      "cote_pmu": 12.0, "cote_zeturf": 11.0, "cote_genybet": 10.52,
+      "jockey_stats": {"taux_victoire": 0.15, "taux_top3": 0.45, "reussite_cheval": 0.22},
+      "entraineur_forme": "1p-1p-1p-1p-4p",
+      "historique": [
+        {"date": "2026-06-20", "hippodrome": "Marseille-Vivaux", "distance": 2000, "terrain": "PSF", "classe": "Cl.4 Hand.", "allocation": 17000, "partants": 10, "corde": 3, "poids_porte": 60.0, "place": 1, "ecart": 2.0},
+        {"date": "2026-05-15", "hippodrome": "Biguglia", "distance": 2000, "terrain": "Bon", "classe": "Hand.Prov.", "allocation": 10000, "partants": 8, "corde": 2, "poids_porte": 62.0, "place": 1, "ecart": 3.0},
+        {"date": "2026-04-15", "hippodrome": "Prunelli", "distance": 2400, "terrain": "Bon", "classe": "Hand.Prov.", "allocation": 10000, "partants": 7, "corde": 1, "poids_porte": 61.0, "place": 1, "ecart": 2.5},
+        {"date": "2026-04-05", "hippodrome": "Biguglia", "distance": 2000, "terrain": "Bon", "classe": "Hand.Prov.", "allocation": 10000, "partants": 8, "corde": 4, "poids_porte": 60.0, "place": 1, "ecart": 1.5}
+      ]
+    },
+    {
+      "numero": 16, "nom": "SAINT AQUILIN", "age": 5, "sexe": "H", "poids_porte": 53.0, "valeur_handicap": 33.5,
+      "corde": 4, "jockey": "Fabrice Veron", "entraineur": "G. Braem",
+      "masse_corporelle": 465, "rythme": "attentiste",
+      "equipement": {},
+      "cote_pmu": 29.0, "cote_zeturf": 75.0, "cote_genybet": 95.58,
+      "jockey_stats": {"taux_victoire": 0.11, "taux_top3": 0.36, "reussite_cheval": 0.14},
+      "entraineur_forme": "9p-4p-1p-1p",
+      "historique": [
+        {"date": "2026-07-05", "hippodrome": "Saint-Cloud", "distance": 1600, "terrain": "Bon", "classe": "Cl.3 Hand.", "allocation": 27000, "partants": 16, "corde": 6, "poids_porte": 58.0, "place": 9, "ecart": 4.0},
+        {"date": "2026-06-15", "hippodrome": "Longchamp", "distance": 1800, "terrain": "Bon", "classe": "Cl.3 Hand.", "allocation": 27000, "partants": 15, "corde": 3, "poids_porte": 57.5, "place": 4, "ecart": 1.5},
+        {"date": "2026-06-05", "hippodrome": "Nancy", "distance": 2000, "terrain": "Bon", "classe": "Cl.4 Hand.", "allocation": 17000, "partants": 12, "corde": 2, "poids_porte": 59.0, "place": 1, "ecart": 1.5}
+      ]
+    }
+  ]
+}
