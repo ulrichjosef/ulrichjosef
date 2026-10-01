@@ -1,0 +1,30 @@
+overround=0.839
+N° Cheval                 SGC   Praw   Pwin   Pmkt   edge    P3    P5
+ 4 JAIFA DE L'ITON       6.91  0.145  0.192  0.238 -0.046  0.51  0.74
+ 6 JAZZ D'OURVILLE       7.69  0.244  0.176  0.119 +0.057  0.48  0.71
+13 JOHNNY MIX            6.19  0.090  0.080  0.066 +0.014  0.25  0.42
+ 9 JOG JELOCA            5.91  0.075  0.080  0.079 +0.000  0.25  0.42
+14 JERICHO               5.54  0.058  0.063  0.063 -0.000  0.20  0.35
+ 8 JACKSON D'ARC         5.69  0.064  0.056  0.046 +0.010  0.18  0.32
+ 5 JOHORE                5.18  0.046  0.053  0.057 -0.004  0.17  0.30
+10 JUDOPOCK              5.38  0.052  0.053  0.050 +0.003  0.17  0.30
+12 JOEY DU NOYER         5.56  0.059  0.051  0.041 +0.010  0.16  0.29
+ 3 JYTRACE DE HOUELLE    5.06  0.042  0.050  0.054 -0.005  0.16  0.28
+11 JEWEL DE BANVILLE     4.04  0.021  0.046  0.092 -0.046  0.15  0.27
+ 2 JUNIOR STEED          4.96  0.040  0.040  0.037 +0.002  0.13  0.23
+ 1 JADE DE NAVARY        4.48  0.029  0.031  0.031 -0.000  0.10  0.19
+ 7 JOB DES LOUANGES      4.71  0.034  0.030  0.026 +0.005  0.10  0.18
+
+Kelly 1/4 sur rapport réaliste (plafond 2 %):
+   6 JAZZ D'OURVILLE      rapport~7.0 f*=0.040 -> mise 1.01 %
+  13 JOHNNY MIX           rapport~12.7 f*=0.001 -> mise 0.03 %
+   8 JACKSON D'ARC        rapport~18.3 f*=0.002 -> mise 0.04 %
+  12 JOEY DU NOYER        rapport~20.4 f*=0.002 -> mise 0.05 %
+P(top5 ⊂ [6, 4, 13, 9, 8, 14, 12, 10]) = 0.121
+P(top5 ⊂ [6, 4, 13, 9, 8, 14, 12]) = 0.062
+P(top5 ⊂ [6, 4, 13, 9, 8, 14]) = 0.028
+P(top5 ⊂ [6, 4, 13, 9, 8]) = 0.007
+P(6 dans top5)=0.708  P(4 dans top5)=0.735  P(6 et 4 dans top5)=0.508
+Bases [6, 4] + [13, 9, 8, 14, 12, 10]: 20 combis x 2 EUR = 40 EUR, P(désordre)=0.089
+Bases [6] + [4, 13, 9, 8, 14, 12, 10]: 35 combis x 2 EUR = 70 EUR, P(désordre)=0.104
+Bases [6, 4] + [13, 9, 8, 14, 12]: 10 combis x 2 EUR = 20 EUR, P(désordre)=0.050
