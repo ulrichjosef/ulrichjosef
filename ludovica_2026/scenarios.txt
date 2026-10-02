@@ -1,0 +1,25 @@
+
+=== B - Train contrôlé, la tête tient ===
+ 4 JAIFA DE L'ITON      Pwin=0.182 Pmkt=0.148 edge=+0.034 P5=0.72
+ 6 JAZZ D'OURVILLE      Pwin=0.178 Pmkt=0.132 edge=+0.047 P5=0.71
+13 JOHNNY MIX           Pwin=0.106 Pmkt=0.125 edge=-0.018 P5=0.53
+ 9 JOG JELOCA           Pwin=0.089 Pmkt=0.100 edge=-0.011 P5=0.46
+12 JOEY DU NOYER        Pwin=0.067 Pmkt=0.053 edge=+0.015 P5=0.37
+ 3 JYTRACE DE HOUELLE   Pwin=0.060 Pmkt=0.056 edge=+0.004 P5=0.34
+14 JERICHO              Pwin=0.058 Pmkt=0.063 edge=-0.005 P5=0.33
+ 5 JOHORE               Pwin=0.051 Pmkt=0.059 edge=-0.009 P5=0.29
+11 JEWEL DE BANVILLE    Pwin=0.049 Pmkt=0.123 edge=-0.075 P5=0.28
+Ticket bases [4, 6] + [12, 3, 9, 13, 14, 5]: 40 EUR, P(désordre)=0.125
+
+=== C - Train d'enfer, les finisseurs ===
+ 6 JAZZ D'OURVILLE      Pwin=0.180 Pmkt=0.132 edge=+0.048 P5=0.70
+ 4 JAIFA DE L'ITON      Pwin=0.121 Pmkt=0.148 edge=-0.027 P5=0.56
+13 JOHNNY MIX           Pwin=0.107 Pmkt=0.125 edge=-0.018 P5=0.51
+ 9 JOG JELOCA           Pwin=0.106 Pmkt=0.100 edge=+0.006 P5=0.51
+14 JERICHO              Pwin=0.069 Pmkt=0.063 edge=+0.006 P5=0.37
+11 JEWEL DE BANVILLE    Pwin=0.063 Pmkt=0.123 edge=-0.060 P5=0.34
+10 JUDOPOCK             Pwin=0.057 Pmkt=0.039 edge=+0.017 P5=0.31
+ 5 JOHORE               Pwin=0.055 Pmkt=0.059 edge=-0.004 P5=0.31
+ 8 JACKSON D'ARC        Pwin=0.050 Pmkt=0.022 edge=+0.029 P5=0.28
+Ticket bases [6, 9] + [8, 1, 10, 13, 14, 4]: 40 EUR, P(désordre)=0.058
+Ticket bases [6] + [9, 8, 1, 10, 13, 14, 2]: 70 EUR, P(désordre)=0.035
