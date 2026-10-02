@@ -1,30 +1,32 @@
-overround=0.839
+overround=1.055
 N° Cheval                 SGC   Praw   Pwin   Pmkt   edge    P3    P5
- 4 JAIFA DE L'ITON       6.91  0.145  0.192  0.238 -0.046  0.51  0.74
- 6 JAZZ D'OURVILLE       7.69  0.244  0.176  0.119 +0.057  0.48  0.71
-13 JOHNNY MIX            6.19  0.090  0.080  0.066 +0.014  0.25  0.42
- 9 JOG JELOCA            5.91  0.075  0.080  0.079 +0.000  0.25  0.42
-14 JERICHO               5.54  0.058  0.063  0.063 -0.000  0.20  0.35
- 8 JACKSON D'ARC         5.69  0.064  0.056  0.046 +0.010  0.18  0.32
- 5 JOHORE                5.18  0.046  0.053  0.057 -0.004  0.17  0.30
-10 JUDOPOCK              5.38  0.052  0.053  0.050 +0.003  0.17  0.30
-12 JOEY DU NOYER         5.56  0.059  0.051  0.041 +0.010  0.16  0.29
- 3 JYTRACE DE HOUELLE    5.06  0.042  0.050  0.054 -0.005  0.16  0.28
-11 JEWEL DE BANVILLE     4.04  0.021  0.046  0.092 -0.046  0.15  0.27
- 2 JUNIOR STEED          4.96  0.040  0.040  0.037 +0.002  0.13  0.23
- 1 JADE DE NAVARY        4.48  0.029  0.031  0.031 -0.000  0.10  0.19
- 7 JOB DES LOUANGES      4.71  0.034  0.030  0.026 +0.005  0.10  0.18
+ 6 JAZZ D'OURVILLE       7.69  0.244  0.187  0.132 +0.055  0.50  0.73
+ 4 JAIFA DE L'ITON       6.91  0.145  0.153  0.148 +0.005  0.43  0.65
+13 JOHNNY MIX            6.19  0.090  0.110  0.125 -0.014  0.33  0.53
+ 9 JOG JELOCA            5.91  0.075  0.090  0.100 -0.010  0.28  0.46
+14 JERICHO               5.54  0.058  0.063  0.063 +0.000  0.20  0.35
+12 JOEY DU NOYER         5.56  0.059  0.058  0.053 +0.006  0.18  0.32
+ 5 JOHORE                5.18  0.046  0.054  0.059 -0.005  0.17  0.31
+11 JEWEL DE BANVILLE     4.04  0.021  0.054  0.123 -0.069  0.17  0.30
+ 3 JYTRACE DE HOUELLE    5.06  0.042  0.051  0.056 -0.005  0.16  0.29
+10 JUDOPOCK              5.38  0.052  0.047  0.039 +0.008  0.15  0.27
+ 8 JACKSON D'ARC         5.69  0.064  0.039  0.022 +0.017  0.13  0.23
+ 7 JOB DES LOUANGES      4.71  0.034  0.038  0.039 -0.002  0.12  0.22
+ 2 JUNIOR STEED          4.96  0.040  0.034  0.027 +0.007  0.11  0.20
+ 1 JADE DE NAVARY        4.48  0.029  0.021  0.015 +0.007  0.07  0.13
 
 Kelly 1/4 sur rapport réaliste (plafond 2 %):
-   6 JAZZ D'OURVILLE      rapport~7.0 f*=0.040 -> mise 1.01 %
-  13 JOHNNY MIX           rapport~12.7 f*=0.001 -> mise 0.03 %
-   8 JACKSON D'ARC        rapport~18.3 f*=0.002 -> mise 0.04 %
-  12 JOEY DU NOYER        rapport~20.4 f*=0.002 -> mise 0.05 %
-P(top5 ⊂ [6, 4, 13, 9, 8, 14, 12, 10]) = 0.121
-P(top5 ⊂ [6, 4, 13, 9, 8, 14, 12]) = 0.062
-P(top5 ⊂ [6, 4, 13, 9, 8, 14]) = 0.028
-P(top5 ⊂ [6, 4, 13, 9, 8]) = 0.007
-P(6 dans top5)=0.708  P(4 dans top5)=0.735  P(6 et 4 dans top5)=0.508
-Bases [6, 4] + [13, 9, 8, 14, 12, 10]: 20 combis x 2 EUR = 40 EUR, P(désordre)=0.089
-Bases [6] + [4, 13, 9, 8, 14, 12, 10]: 35 combis x 2 EUR = 70 EUR, P(désordre)=0.104
-Bases [6, 4] + [13, 9, 8, 14, 12]: 10 combis x 2 EUR = 20 EUR, P(désordre)=0.050
+   6 JAZZ D'OURVILLE      rapport~6.4 f*=0.036 -> mise 0.90 %
+  10 JUDOPOCK             rapport~21.3 f*=0.000 -> mise 0.01 %
+   8 JACKSON D'ARC        rapport~39.0 f*=0.014 -> mise 0.34 %
+   2 JUNIOR STEED         rapport~31.0 f*=0.002 -> mise 0.05 %
+   1 JADE DE NAVARY       rapport~57.6 f*=0.004 -> mise 0.10 %
+P(top5 ⊂ [6, 4, 13, 9, 8, 14, 12, 10]) = 0.120
+P(top5 ⊂ [6, 4, 13, 9, 8, 14, 12]) = 0.065
+P(top5 ⊂ [6, 4, 13, 9, 8, 14]) = 0.026
+P(top5 ⊂ [6, 4, 13, 9, 8]) = 0.006
+P(6 dans top5)=0.726  P(4 dans top5)=0.652  P(6 et 4 dans top5)=0.457
+Bases [6, 4] + [13, 9, 14, 12, 8, 11]: 20 combis x 2 EUR = 40 EUR, P(désordre)=0.088
+Bases [6, 4] + [13, 9, 14, 12, 8, 10]: 20 combis x 2 EUR = 40 EUR, P(désordre)=0.084
+Bases [6, 4] + [13, 9, 14, 12, 5, 11]: 20 combis x 2 EUR = 40 EUR, P(désordre)=0.103
+Bases [6] + [4, 13, 9, 14, 12, 8, 11]: 35 combis x 2 EUR = 70 EUR, P(désordre)=0.110
