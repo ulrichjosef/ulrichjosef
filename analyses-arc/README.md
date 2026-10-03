@@ -3,6 +3,8 @@
 Source : `Données Pré-Course 1.docx`, avec 18 éditions de 2008 à 2025.
 Méthode : protocole en 9 sections (course, partants, interactions, déroulement, 3 scénarios, groupes, traçabilité, variables, registre). Un fichier par édition.
 
+**Audit post-course : voir [AUDIT.md](AUDIT.md).**
+
 ## ⚠️ Limites de validité, à lire avant toute exploitation
 
 1. **Aveugle impossible.** Les résultats de ces 18 courses sont dans mes données d'entraînement (y compris 2025). Je me suis limité aux données du document, sans pouvoir garantir que cette connaissance ne m'a pas influencé.
