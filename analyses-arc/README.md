@@ -5,6 +5,8 @@ Méthode : protocole en 9 sections (course, partants, interactions, déroulement
 
 **Audit post-course : voir [AUDIT.md](AUDIT.md).**
 
+**Modèle opératoire : voir [PIPELINE.md](PIPELINE.md).**
+
 ## ⚠️ Limites de validité, à lire avant toute exploitation
 
 1. **Aveugle impossible.** Les résultats de ces 18 courses sont dans mes données d'entraînement (y compris 2025). Je me suis limité aux données du document, sans pouvoir garantir que cette connaissance ne m'a pas influencé.
