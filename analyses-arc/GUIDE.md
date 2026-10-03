@@ -128,3 +128,16 @@ Avec ces éléments, j'applique le pipeline et je te rends :
 | Statistiques de l'audit | Recalculées : n° 1 gagnant 7 fois sur 16, vainqueur dans mon top 3 14 fois sur 16, top 3 trouvé à 69 % | Les chiffres reposent maintenant sur des arrivées fiables |
 
 Ce qui manque encore pour aller plus loin : **les numéros de stalle officiels** des 18 éditions. Avec eux, je pourrai enfin mesurer si partir près de la corde aide vraiment, et de combien.
+
+---
+
+## 7. Nouveauté v0.3 : le nombre de scénarios n'est plus fixé
+
+Dans l'exemple ci-dessus, j'ai utilisé 5 scénarios « types ». Depuis la v0.3, le pipeline (module 4 bis) procède autrement, en cinq étapes :
+1. **Repérer ce qui est vraiment incertain** dans la course, ce que j'appelle les axes : rythme, terrain, corde, tenue du favori…
+2. **Garder seulement les axes qui changent le groupe de tête.**
+3. **Combiner** les états de ces axes.
+4. **Fusionner** les combinaisons qui donnent le même groupe de tête.
+5. **Ne garder que ce qui reste.**
+
+Sur 2025, cela donne **2 scénarios seulement** (« sélection par la valeur » et « course de position à la corde »), et non 5. Daryz y apparaît comme **cheval de configuration** : il entre dans le top 4 si la corde paie. Le détail est dans la section 4b.8 du [PIPELINE](PIPELINE.md).

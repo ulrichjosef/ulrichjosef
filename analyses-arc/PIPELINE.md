@@ -1,8 +1,15 @@
 # PIPELINE D'ANALYSE ET DE SCÉNARISATION DES COURSES
 
-*Version 0.2 : modèle tiré de 16 éditions exploitables du Prix de l'Arc de Triomphe (2008–2025, sans 2011 ni 2022), recalé sur les **arrivées vérifiées** (Wikipedia, Racing Post, France Galop). Pour une explication pas à pas avec un exemple complet, voir [GUIDE.md](GUIDE.md).*
+*Version 0.3 : modèle tiré de 16 éditions exploitables du Prix de l'Arc de Triomphe (2008–2025, sans 2011 ni 2022), recalé sur les **arrivées vérifiées** (Wikipedia, Racing Post, France Galop). Pour une explication pas à pas avec un exemple complet, voir [GUIDE.md](GUIDE.md).*
 
-**Changements par rapport à la v0.1**
+**Changements de la v0.3 (génération dynamique des scénarios)**
+1. Nouveau module **4 bis : Moteur de génération dynamique des scénarios**. Le nombre de scénarios n'est plus fixé : il découle des axes d'incertitude ouverts, des interactions et d'un test de distinction (fusion des scénarios équivalents).
+2. Les scénarios S1 à S5 de la section 4 deviennent une **bibliothèque de configurations de référence**. Ils restent valides et servent de repères, mais ne sont plus une liste à remplir.
+3. Les étapes 7, 10, 11 et 12 sont **complétées** sans supprimer leurs règles : génération dynamique, synthèse croisée, groupes relatifs au nombre de scénarios, un ordre par scénario retenu.
+4. Ajout d'un **niveau de soutien** pour chaque affirmation : D (donnée), E (extrapolation d'un pattern), H (hypothèse).
+5. Ajout d'**emplacements pour le trot** (autostart ou volté, recul, numéro derrière l'autostart, driver, déferrage, risque de disqualification). **Aucune règle trot n'est encore établie** : notre base historique ne contient que des courses de plat.
+
+**Changements de la v0.2**
 1. Les arrivées vérifiées remplacent le document de résultats précédent. Corrections : 2010 (Behkabad 4e), 2018 (Cloth of Stars 3e, Waldgeist 4e, Capri 5e), jockeys de 2008, 2010, 2018 et 2021.
 2. Ajout d'une **hiérarchie des sources** (étape 2).
 3. Suppression d'un **double comptage** : la distance non prouvée était pénalisée deux fois (note D + ajustement −2 dans S1). Voir l'étape 8.
@@ -23,7 +30,7 @@
 **Domaine d'application**
 - **Direct** : grandes courses de plat de classe internationale sur 2 000 à 2 400 m, à poids pour l'âge.
 - **Avec prudence** : autres Groupes 1 et 2 de plat.
-- **Non couvert** : handicaps, trot, obstacle, sprint. La structure du pipeline reste utilisable, mais les règles chiffrées ne s'y transfèrent pas.
+- **Non couvert par des règles apprises** : handicaps, trot, obstacle, sprint. La structure du pipeline, y compris le moteur de scénarios (4 bis), est utilisable. Les axes propres au trot y sont prévus, mais **leurs effets restent à apprendre** à partir de courses de trot auditées. Je n'ai encore analysé aucune course de trot.
 
 **Principe directeur.** Le modèle ne prédit pas un ordre unique. Il produit des **classements conditionnels par scénario**, puis une synthèse pondérée. L'erreur la plus fréquente de l'audit était de **ne pas faire remonter dans le classement les chevaux favorisés par un scénario que j'avais moi-même jugé plausible** (2010, 2019, 2020, 2021). Le pipeline est conçu pour l'empêcher.
 
@@ -118,7 +125,12 @@ Une interaction n'est retenue comme « règle » que si elle apparaît au moins 
 
 ## 4. Modèle de scénarios
 
-Chaque course reçoit une **probabilité estimée pour chaque scénario** (somme = 100 %). On ne garde que 3 ou 4 scénarios utiles.
+**Statut depuis la v0.3** : les scénarios S1 à S5 sont une **bibliothèque de configurations de référence** issue de l'historique. Ils servent :
+- à nommer et à reconnaître une configuration quand elle correspond à un cas connu ;
+- à fournir des ajustements déjà calibrés (grille de l'étape 8) ;
+- à vérifier qu'un scénario généré dynamiquement n'en double pas un autre.
+
+Le nombre et le contenu des scénarios d'une course sont désormais produits par le **moteur 4 bis**. Une course peut donner 2 scénarios ou 6, et un scénario peut ne correspondre à aucune entrée de la bibliothèque.
 
 ### S1 : Train soutenu sur terrain bon à souple (< 3,8)
 - **Conditions** : au moins un lièvre ou deux leaders naturels, terrain rapide.
@@ -158,7 +170,7 @@ Chaque course reçoit une **probabilité estimée pour chaque scénario** (somme
 - **Favorisés** : chevaux réguliers bien placés, et l'outsider adapté au terrain.
 - **Indicateurs** : antécédents de comportement (Orfevre, Zarkava aux stalles), peloton de plus de 18 chevaux.
 
-**Pondération par défaut des scénarios** (à ajuster) :
+**Pondération de départ des familles de référence** (point de départ du moteur 4 bis ; à ajuster) :
 
 | Situation | S1 | S2 | S3 | S4 | S5 |
 |---|---|---|---|---|---|
@@ -166,6 +178,150 @@ Chaque course reçoit une **probabilité estimée pour chaque scénario** (somme
 | Terrain < 3,8, sans lièvre | 15 | 45 | 0 | 20 | 20 |
 | Terrain de 3,8 à 4,1 | 30 | 15 | 20 | 20 | 15 |
 | Terrain ≥ 4,2 | 10 | 20 | 50 | 5 | 15 |
+
+---
+
+## 4 bis. Moteur de génération dynamique des scénarios (v0.3)
+
+### 4b.1 Principe
+```
+DONNÉES DE LA COURSE + HISTORIQUE → PATTERNS (sections 1, 2, 3) → INTERACTIONS (4b.3)
+→ AXES D'INCERTITUDE OUVERTS (4b.2) → CONFIGURATIONS CANDIDATES → TEST DE DISTINCTION ET FUSION
+→ SCÉNARIOS DISTINCTS → HIÉRARCHIES CONDITIONNELLES → SYNTHÈSE CROISÉE (4b.7)
+```
+Un scénario est une **configuration de course** : un déroulement, défini par l'état de quelques facteurs. Ce n'est pas une liste de chevaux. Le nombre de scénarios est une **conséquence** de l'analyse :
+- aucun minimum artificiel, sauf la règle R4 : si le rythme est incertain, ses deux versions doivent être examinées ;
+- aucun maximum, mais chaque scénario doit passer le test de distinction (4b.4).
+
+### 4b.2 Les axes de configuration
+Un **axe** est un facteur dont l'état n'est pas connu avant la course et qui peut changer la hiérarchie. Il est **ouvert** s'il remplit deux conditions :
+1. son état est réellement incertain d'après les données ;
+2. le changement d'état modifie le groupe de tête (test d'impact : au moins un cheval entre ou sort du top 4 provisoire).
+
+Sinon il est **fermé** : son état le plus probable est fixé, et il ne génère pas de scénario.
+
+| Axe | États possibles | Données qui déterminent l'état | Base historique |
+|---|---|---|---|
+| **A1. Rythme** | lent / modéré / soutenu | nombre de leaders réels, lièvres, forfaits | **Plat : forte** (R4, R5 ; 2010, 2020, 2021) |
+| **A2. Terrain effectif** | stable / s'alourdit / sèche pendant la réunion | pénétromètre du matin, pluie annoncée, position de la course dans la réunion | **Plat : forte** (classes T1 à T4, R1, R2) |
+| **A3. Trajectoire / corde** | la corde paie / l'extérieur paie / neutre | taille du peloton, open stretch, état de la corde, stalles **vérifiées** | Plat : prometteuse (2024, 2025), stalles à vérifier |
+| **A4. Tenue du ou des favoris** | reproduisent leur niveau / défaillent | drapeaux (jamais face aux chevaux d'âge, Niel, champion de 5 ans ou plus, calendrier), dépendance au terrain | Plat : favori gagnant 5 fois sur 16 seulement (R10) |
+| **A5. Moment décisif de l'effort** | long effort depuis 600 m / sprint court après 300 m | rythme, profil de la ligne droite, styles en présence | Plat : prometteuse (Waldgeist 2019, Torquator Tasso 2021 contre 2020) |
+| **A6. Rôles d'écurie / tactique collective** | lièvre efficace / lièvre ignoré / écurie qui verrouille | partants d'une même écurie, lièvres déclarés | Plat : anecdotique (2016) |
+| **A7. Incident** | aucun / départ manqué, enfermement, cheval qui penche | antécédents comportementaux, taille du peloton | Plat : faible mais récurrent (Zarkava 2008, Orfevre 2012) |
+| *T1. Type de départ (trot)* | autostart / volté | conditions de la course | **Aucune** : à apprendre |
+| *T2. Recul / handicap de distance (trot)* | effet neutre / pénalisant / compensé par le rythme | mètres de recul, capacité à produire un long effort | **Aucune** : à apprendre |
+| *T3. Numéro derrière l'autostart (trot)* | placement facile / chevaux enfermés en 2e ligne | numéro, vitesse au départ | **Aucune** : à apprendre |
+| *T4. Allures / disqualification (trot)* | course propre / fautes | historique de fautes, ferrure (déferré des 4 ou non), terrain | **Aucune** : à apprendre |
+| *T5. Driver × configuration (trot)* | driver offensif / attentiste | statistiques du driver selon le scénario | **Aucune** : à apprendre |
+
+Les axes T1 à T5 sont des **emplacements prévus**. Tant qu'aucune course de trot n'a été auditée, leurs effets sont des hypothèses (niveau H). Ils ne doivent pas être présentés comme des patterns.
+
+### 4b.3 Interactions : c'est d'elles que naissent les scénarios distincts
+Un axe isolé déplace peu la hiérarchie. Les scénarios **réellement distincts** naissent des interactions, c'est-à-dire des combinaisons d'axes qui avantagent des profils différents.
+
+| Interaction | Effet attendu | Statut (plat) |
+|---|---|---|
+| Rythme × tenue | Faux rythme : les chevaux limites en distance tiennent. Rythme rapide en lourd : ils s'effondrent. | **Retenue** |
+| Rythme × style | Leader seul et rythme lent : il se place. Leaders multiples : ils s'effondrent. | **Retenue** |
+| Terrain × poids | L'avantage de poids s'efface à partir de T4 | **Retenue** |
+| Terrain × style × moment de l'effort | T4 + rythme soutenu + long effort : les attentistes qui tiennent battent les chevaux qui attaquent tôt | Prometteuse |
+| Stalle × rythme × open stretch | Rythme moyen + peloton compact : la corde paie | Prometteuse (stalles à vérifier) |
+| Forme × niveau de compétition | Série gagnée sous le niveau de l'épreuve (Niel, invaincu sans chevaux d'âge) : surestimation | Prometteuse |
+| Aptitude au parcours × rythme | La spécialité du tracé aide surtout quand le rythme est régulier | Faible |
+| Équipement × comportement historique | Œillères pour la première fois sur un cheval tendu | **Non observée** (aucun effet en 18 ans) |
+| *Recul × distance ; handicap × effort prolongé (trot)* | Le recul pèse moins sur longue distance et rythme soutenu | **H** (à apprendre) |
+| *Numéro derrière l'autostart × style (trot)* | Petit numéro + cheval rapide : position de tête. Grand numéro + attentiste : dépend du rythme. | **H** (à apprendre) |
+| *Driver × configuration (trot)* | Un driver offensif valorise le scénario rythme soutenu | **H** (à apprendre) |
+
+### 4b.4 Procédure de génération
+1. **Lister les axes ouverts** (4b.2, test d'impact). En pratique, 1 à 4 axes sont ouverts.
+2. **Combiner leurs états** pour former des configurations candidates.
+3. **Éliminer** les combinaisons incohérentes, comme une course d'usure avec un sprint court, et les combinaisons jugées très improbables (soutien H uniquement et contraires à un pattern robuste).
+4. **Construire la hiérarchie de chaque candidate**. On applique les étapes 4 et 8 : l'indice de compatibilité IC plus les ajustements dictés par les facteurs de la configuration, sur l'échelle de −2 à +2 (déjà calibrée dans la bibliothèque quand la configuration y ressemble).
+5. **Test de distinction et fusion.** Deux candidates sont **fusionnées** si elles produisent :
+   - le même déroulement décrit ;
+   - **ou** le même groupe de tête, c'est-à-dire au moins 3 chevaux communs sur 4 avec le même cheval en tête.
+
+   Une candidate n'est **retenue** que si elle apporte **au moins une** différence réelle :
+   - un déroulement différent ;
+   - un autre cheval en tête ;
+   - un cheval qui entre dans le top 4 ou en sort.
+6. **Arrêter** quand plus aucune candidate ne passe le test. Le nombre de scénarios obtenu est le résultat.
+7. **Vérifier la couverture.** Au moins un scénario doit couvrir l'hypothèse « le ou les favoris ne reproduisent pas leur niveau » si un drapeau existe (axe A4). Rappel : favori gagnant 5 fois sur 16.
+
+### 4b.5 Fiche de chaque scénario retenu (12 rubriques)
+Chaque affirmation porte un niveau de soutien : **[D]** donnée de la course, **[E]** extrapolation d'un pattern (avec son niveau : robuste, prometteur, faible), **[H]** hypothèse incertaine.
+
+1. **Nom du scénario** (descriptif, ex. « Course de position à la corde sur rythme moyen »)
+2. **Déroulement probable** : départ, placement, rythme, moment décisif
+3. **Conditions d'apparition** : états des axes qui doivent se réaliser
+4. **Facteurs historiques qui le soutiennent** : patterns et règles (R1 à R10), avec leur niveau
+5. **Chevaux particulièrement favorisés**
+6. **Chevaux particulièrement vulnérables**
+7. **Chevaux susceptibles de progresser** par rapport à l'analyse principale (rang attendu)
+8. **Chevaux susceptibles de régresser**
+9. **Profils outsiders compatibles** (règles R5 et R7, cote ≥ 20/1)
+10. **Impact sur les chevaux déjà identifiés** par l'analyse principale
+11. **Ordre ou groupes plausibles** dans cette configuration
+12. **Arguments précis du pipeline** : variables, interactions et règles mobilisées
+
+### 4b.6 Hiérarchie des scénarios (sans score arbitraire)
+Les scénarios sont présentés en trois niveaux de cohérence avec les données :
+
+| Niveau | Critère |
+|---|---|
+| **Forte concordance** | Ses conditions sont annoncées par des données de la course [D], **et** il s'appuie sur au moins un pattern robuste ou une règle de confiance haute |
+| **Concordance partielle** | Données de la course compatibles mais non décisives ; il s'appuie sur des patterns prometteurs |
+| **Hypothèse** | Il repose surtout sur [H] ou sur des patterns faibles, mais il passe le test de distinction et reste plausible |
+
+Pour chaque scénario, expliquer en une ou deux phrases **pourquoi** il est à ce niveau : combien d'éléments indépendants concordent et ce qui le contredit.
+
+*Pour le calcul du rang attendu (étape 10), et seulement là, chaque niveau reçoit un poids indicatif :*
+- *forte concordance : 25 à 45 % ;*
+- *concordance partielle : 10 à 25 % ;*
+- *hypothèse : 5 à 10 %.*
+
+*On normalise ensuite à 100 %. Ces poids servent à combiner les classements, pas à présenter les scénarios.*
+
+### 4b.7 Synthèse croisée
+Après la génération, produire :
+
+| Rubrique | Définition opératoire |
+|---|---|
+| Chevaux présents dans plusieurs scénarios | Top 4 dans au moins la moitié des scénarios retenus |
+| Chevaux « de configuration » | Top 4 dans un seul scénario |
+| Dépendance au déroulement | **Amplitude** = écart entre le meilleur et le pire rang selon les scénarios (≥ 4 : très dépendant) |
+| Bénéficiaires d'une défaillance du favori | Les chevaux qui montent le plus dans le scénario « favori défaillant » |
+| Outsiders récurrents | Cote ≥ 20/1 et top 5 dans au moins 2 scénarios |
+| Soutien par arguments indépendants | Nombre de **familles d'arguments** distinctes qui soutiennent le cheval : valeur, terrain prouvé, tactique ou position, historique dans l'épreuve, écart cote/valeur. Au moins 3 familles : soutien solide. |
+| Convergences | Ce qui reste vrai dans tous les scénarios (chevaux toujours dans le top 4, chevaux jamais placés) |
+| Divergences | Les axes qui renversent la hiérarchie, et les chevaux concernés |
+
+### 4b.8 Illustration rétrospective (2025)
+*Illustration seulement : je connais l'arrivée, donc cet exemple ne prouve rien. Il montre la mécanique.*
+- **Axes ouverts.**
+  - A1, le rythme : 3 leaders, donc un rythme soutenu probable, mais un rythme modéré reste possible [D].
+  - A3, la corde : open stretch et 17 partants [D]. L'axe change le top 4 (Minnie Hauk, Daryz et Sosie en stalles 1 à 3 contre Aventure en stalle 12).
+  - A4, le favori : Minnie Hauk n'a jamais affronté de chevaux d'âge [D], ce qui correspond au pattern prometteur « 3 ans invaincu surestimé ».
+- **Axe fermé.** A2, le terrain : 4,1 et stable [D]. Il ne génère pas de scénario.
+- **Candidates.** 2 × 2 × 2 = 8. Le calcul, fait avec l'IC + les ajustements de l'étape 8 (détail dans [GUIDE.md](GUIDE.md)), donne ceci :
+  - « rythme modéré » : groupe de tête Minnie Hauk, Aventure, Sosie, Kalpana ;
+  - « la corde paie » : Minnie Hauk, Sosie, Aventure, puis Daryz à égalité avec Kalpana.
+
+  Même cheval en tête et 3 chevaux communs sur 4 : ces deux candidates sont **fusionnées** en un seul scénario, *Course de position à la corde*. En combinant leurs ajustements : Minnie Hauk 16,5, Sosie 16, Aventure 13, Daryz 12,5.
+- La candidate « favori défaillant » donne Aventure, Sosie, Kalpana, Byzantine Dream. La candidate « rythme soutenu, trajectoire neutre » donne Aventure, Sosie, Minnie Hauk, Kalpana. Même cheval en tête et 3 chevaux communs : elles sont **fusionnées** elles aussi. La couverture « favori défaillant » (étape 7 de la procédure) est assurée par ce scénario fusionné.
+- **Résultat : 2 scénarios seulement.** Les autres combinaisons ne changeaient pas le groupe de tête. Ce nombre est une conséquence du calcul, pas un choix.
+  1. *Sélection par la valeur (rythme soutenu, corde neutre ; inclut la variante « favori défaillant »)* : Aventure, Sosie, Minnie Hauk ou Kalpana. Concordance partielle.
+  2. *Course de position à la corde* : Minnie Hauk, Sosie, Aventure, Daryz. Concordance partielle.
+- **Synthèse croisée.**
+  - Sosie est 2e dans les deux scénarios : c'est la **convergence**.
+  - Minnie Hauk dépend de l'axe A3, la corde (1re ou 3e).
+  - Daryz est un **cheval de configuration** : il n'entre dans le top 4 que dans le scénario 2.
+  - Aventure est en tête dans le scénario 1 et seulement 3e dans le scénario 2.
+- **Confrontation avec l'arrivée** (Daryz, Minnie Hauk, Sosie). C'est le scénario 2 qui s'est réalisé. Les trois premiers figuraient dans son top 4, mais Daryz y était 4e et non 1er. Le moteur dynamique rend Daryz **visible** comme cheval de configuration (la v0.2 le classait 6e), sans le désigner gagnant.
+
+**Son efficacité réelle reste à mesurer sur des courses inédites.**
 
 ---
 
@@ -235,7 +391,8 @@ Indice de compatibilité de base, **IC = V + Vp/2 + F + D + T + bonus de poids**
 - Noter **toujours** l'hypothèse inverse et sa probabilité (au moins 20 %). C'est la leçon de 2010, 2020 et 2021.
 
 ### ÉTAPE 7 : Génération des scénarios
-- Choisir 3 ou 4 scénarios parmi S1 à S5 dans le tableau de pondération (section 4).
+**Depuis la v0.3 : appliquer le moteur 4 bis** (axes ouverts, puis interactions, candidates, test de distinction et fusion, et enfin fiche en 12 rubriques pour chaque scénario retenu). La bibliothèque S1 à S5 et le tableau de pondération servent de point de départ et de repère. Les règles ci-dessous restent valables :
+- Partir des familles S1 à S5 les plus proches de la course (section 4) pour amorcer la génération, sans s'y limiter.
 - Ajuster les probabilités selon le nombre de leaders, les forfaits, la pluie annoncée et les antécédents de comportement des favoris.
 - **Écrire pour chaque scénario les 2 ou 3 chevaux qu'il favorise.** Ces chevaux devront apparaître dans la synthèse (étape 10).
 
@@ -252,6 +409,8 @@ Indice de compatibilité de base, **IC = V + Vp/2 + F + D + T + bonus de poids**
 
 On obtient un classement par scénario.
 
+**Scénarios hors bibliothèque (v0.3).** Pour un scénario généré qui ne correspond à aucune famille S1 à S5, les ajustements de −2 à +2 sont déduits de ses **facteurs déterminants** (rubrique 3 de sa fiche), sur la même échelle. Chaque ajustement est justifié par une interaction du tableau 4b.3 et porte un niveau [D], [E] ou [H]. Un ajustement [H] ne peut pas dépasser ±1.
+
 **Règle de non-double-comptage (ajoutée en v0.2).** Une même information n'intervient qu'à un seul endroit du calcul. La distance non prouvée est déjà dans la note D : elle ne doit pas être pénalisée une seconde fois dans un scénario. Seule une tenue **contredite** par une course (le cheval a déjà calé sur la distance) justifie l'ajustement −2. Ce défaut a été trouvé en rejouant 2025 (Daryz). Il aurait aussi pénalisé à tort Ace Impact (2023), qui découvrait lui aussi les 2 400 m. Il est corrigé parce que c'est une **erreur de logique**, pas pour coller à un résultat.
 
 ### ÉTAPE 9 : Analyse des risques
@@ -264,27 +423,30 @@ On obtient un classement par scénario.
 ### ÉTAPE 10 : Synthèse des scénarios
 - **Rang attendu** = somme, sur les scénarios, de (probabilité du scénario × rang du cheval dans ce scénario).
 - **Robustesse** = nombre de scénarios où le cheval est dans les 3 premiers.
-- **Contrôle de cohérence (obligatoire)** : chaque cheval favorisé par un scénario ≥ 20 % doit figurer dans les 6 premiers du rang attendu. Sinon, le corriger ou justifier par écrit. C'est la leçon d'Aventure 2025, d'Enable 2019 et de Persian King 2020.
+- **Contrôle de cohérence (obligatoire)** : chaque cheval favorisé par un scénario ≥ 20 % doit figurer dans les 6 premiers du rang attendu. Sinon, le corriger ou justifier par écrit. C'est la leçon d'Aventure 2025, d'Enable 2019 et de Persian King 2020. *(v0.3 : les « 20 % » s'entendent comme tout scénario au moins en concordance partielle.)*
+- **Synthèse croisée (v0.3)** : produire le tableau 4b.7, avec les convergences, les divergences, l'amplitude par cheval et les familles d'arguments indépendantes.
 
 ### ÉTAPE 11 : Classements conditionnels
 Produire les classements suivants :
 - un **classement synthétique** (rang attendu) ;
-- un **classement par scénario** pour les 2 scénarios principaux ;
 - quatre groupes :
-  - **G1, solides** : dans les 3 premiers dans au moins 3 scénarios ;
-  - **G2, favorables** : dans les 3 premiers dans 2 scénarios ;
-  - **G3, dépendants du scénario** : dans les 3 premiers dans 1 seul scénario ;
+  - **G1, solides** : dans les 3 premiers dans au moins la moitié des scénarios retenus, et soutenus par au moins 3 familles d'arguments ;
+  - **G2, favorables** : dans les 3 premiers dans au moins 2 scénarios ;
+  - **G3, dépendants du scénario** : dans les 3 premiers dans 1 seul scénario (préciser lequel) ;
   - **G4, à risque** : aucun.
 
+  *(v0.3 : ces seuils sont relatifs au nombre de scénarios retenus. La v0.2 utilisait « 3 scénarios » quand il y en avait 4 ou 5.)*
+- un **classement par scénario pour chaque scénario retenu**, et plus seulement pour les 2 principaux.
+
 ### ÉTAPE 12 : Ordres d'arrivée possibles
-Produire **trois ordres** :
-1. **Ordre de base** : rang attendu, top 5.
-2. **Ordre alternatif** : le scénario n° 2 réalisé.
-3. **Ordre outsider** : au moins un cheval coté ≥ 20/1 avec un signal de la règle R7 ou R5 dans les 5 premiers (9 courses sur 16 ont eu un tel cheval dans les 3 premiers).
+**Depuis la v0.3, le nombre d'ordres suit le nombre de scénarios retenus** :
+1. **Ordre synthétique** : rang attendu, top 5.
+2. **Un ordre par scénario retenu** : top 5, avec le nom du scénario et son niveau de concordance.
+3. **Ordre outsider**, seulement s'il existe un signal R5 ou R7. Il doit compter au moins un cheval coté ≥ 20/1 dans les 5 premiers (9 courses sur 16 ont eu un tel cheval dans les 3 premiers). S'il coïncide avec l'ordre d'un scénario, on ne le duplique pas.
 
 Donner aussi une **probabilité indicative de victoire** pour les 4 premiers, plafonnée à 40 % pour le meilleur (règle R10).
 
-**Registre de sortie** : reprendre le format du registre pré-course (ordre, solides, dangereux, dépendants, sous-évalués, hypothèses, risques, variables clés, variables incertaines), **en ajoutant la probabilité de chaque scénario** pour pouvoir l'auditer ensuite.
+**Registre de sortie** : reprendre le format du registre pré-course (ordre, solides, dangereux, dépendants, sous-évalués, hypothèses, risques, variables clés, variables incertaines), **en ajoutant la liste des scénarios retenus, leur niveau de concordance, les axes ouverts et les candidates fusionnées**. L'audit post-course pourra ainsi vérifier quel scénario s'est réalisé, et si un scénario manquait.
 
 ---
 
@@ -336,16 +498,19 @@ Ce que le test montre :
 COURSE : …  DATE : …  CLASSE TERRAIN : T1/T2/T3/T4  PARTANTS : …
 DONNÉES VÉRIFIÉES : oui/non (contradictions : …)   CONFIANCE : haute/moyenne/basse
 LEADERS RÉELS : …  → RYTHME : lent/soutenu (hypothèse inverse : …%)
-SCÉNARIOS : S_ …% | S_ …% | S_ …% | S5 …%
+AXES OUVERTS : A_ (états …) | A_ (…) | … AXES FERMÉS : …
+INTERACTIONS ACTIVES : …
+CANDIDATES : n = … → FUSIONS : … → SCÉNARIOS RETENUS : n = …
+SCÉNARIO k : nom | niveau (forte/partielle/hypothèse) | conditions | favorisés | vulnérables | ordre top 5 | [D]/[E]/[H]
 FICHES : cheval | V | Vp | F | D | T | H | style | stalle | drapeaux | IC
-CLASSEMENT PAR SCÉNARIO : S_ : … / S_ : …
+SYNTHÈSE CROISÉE : multi-scénarios … | de configuration … | amplitude ≥ 4 … | bénéficiaires d'une défaillance … | outsiders récurrents … | convergences … | divergences …
 RANG ATTENDU : 1… 2… 3… 4… 5…
 CONTRÔLE DE COHÉRENCE : chevaux favorisés par un scénario ≥ 20 % absents du top 6 → …
 GROUPES : G1 … G2 … G3 … G4 …
-ORDRES : base … | alternatif … | outsider …
+ORDRES : synthétique … | par scénario (k = 1…n) … | outsider (si signal R5/R7) …
 PROBABILITÉS DE VICTOIRE (top 4) : …
 CONFRONTATION AVEC LE MARCHÉ : écarts > 3 rangs → explication
-À OBSERVER APRÈS LA COURSE : scénario réalisé, rythme réel, position à 600 m, trajectoires
+À OBSERVER APRÈS LA COURSE : scénario réalisé (parmi les n), scénario manquant ?, fusion abusive ?, rythme réel, position à 600 m, trajectoires
 ```
 
 ---
@@ -361,5 +526,11 @@ CONFRONTATION AVEC LE MARCHÉ : écarts > 3 rangs → explication
 7. **Élargir l'échantillon** à d'autres Groupes 1 de 2 000 à 2 400 m (King George, Grand Prix de Saint-Cloud, Prix du Jockey Club, Irish Champion), pour tester les règles hors de l'Arc et augmenter le nombre de cas.
 8. **Ratings officiels non reconstruits** (Official Rating avant la course) et cotes horodatées.
 9. **Informations vétérinaires et comportementales** (incidents aux stalles, retraits, rapports de commissaires).
+10. **Pour activer les axes trot (T1 à T5)** : des courses de trot auditées avec le même protocole, en précisant pour chacune :
+    - type de départ, recul et numéro derrière l'autostart ;
+    - driver, ferrure (déferré ou non) et fautes ou disqualifications passées ;
+    - réductions kilométriques et positions en course.
+
+    Il faut au moins 10 à 15 courses par type de départ avant de qualifier un pattern de « prometteur ».
 
 **Prochaine étape recommandée.** Appliquer ce pipeline tel quel, sans modifier les pondérations, à 5 à 10 courses non encore courues. Les auditer avec le même protocole, puis seulement réviser les règles.
