@@ -9,7 +9,7 @@
 
 | Course | Contradiction entre le document pré-course et le document post-course |
 |---|---|
-| 2008 | Stalles : Youmzain 3 → 14, **Duke of Marmalade 14 → 2**, Getaway 7 → 15, Vision d'Etat 8 → 6. Jockeys : Youmzain (Hills → Hughes), Duke (Murtagh → Heffernan), Soldier of Fortune (Heffernan → Murtagh), Papal Bull (Fortune → Dettori), It's Gino (Thulliez → Jarnet). |
+| 2008 | ✅ *Source officielle fournie : Youmzain était monté par **Richard Hills**, comme l'indiquait le document pré-course. Le document post-course (« Hughes ») était donc faux sur ce point.* Restent à vérifier : stalles Youmzain 3 → 14, **Duke of Marmalade 14 → 2**, Getaway 7 → 15, Vision d'Etat 8 → 6. Jockeys : Youmzain (Hills → Hughes), Duke (Murtagh → Heffernan), Soldier of Fortune (Heffernan → Murtagh), Papal Bull (Fortune → Dettori), It's Gino (Thulliez → Jarnet). |
 | 2009 | Stalles : **Sea The Stars 14 → 6**, Fame and Glory 18 → 10, **Cavalryman 19 → 2**, **Youmzain 1 → 18**, Dar Re Mi 2 → 11. Le peloton diffère aussi : Ask, Getaway, Look Here, Grand Couturier et Chinchon apparaissent à l'arrivée, alors que La Boum, Tangaspeed, The Bogberry, Tullamore et Magadan ont disparu. |
 | 2010 | Beheshtam (4e), Ave et St Nicholas Abbey figurent à l'arrivée sans être dans la liste des partants. **Youmzain est absent des résultats.** Le jockey de Sarafina change (Mossé → Soumillon). |
 | 2012 | Stalles : Shareta 11 → 1, Great Heavens 7 → 13, Camelot 5 → 7. Cadran apparaît à l'arrivée. |
