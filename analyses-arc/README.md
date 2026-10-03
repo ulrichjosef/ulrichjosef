@@ -5,6 +5,8 @@ Méthode : protocole en 9 sections (course, partants, interactions, déroulement
 
 **Audit post-course : voir [AUDIT.md](AUDIT.md).**
 
+**Explication simple avec exemple complet : voir [GUIDE.md](GUIDE.md).**
+
 **Modèle opératoire : voir [PIPELINE.md](PIPELINE.md).**
 
 ## ⚠️ Limites de validité, à lire avant toute exploitation

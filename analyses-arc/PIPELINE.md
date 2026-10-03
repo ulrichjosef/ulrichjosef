@@ -1,6 +1,12 @@
 # PIPELINE D'ANALYSE ET DE SCÉNARISATION DES COURSES
 
-*Version 0.1 : modèle provisoire tiré de 16 éditions exploitables du Prix de l'Arc de Triomphe (2008–2025, sans 2011 ni 2022).*
+*Version 0.2 : modèle tiré de 16 éditions exploitables du Prix de l'Arc de Triomphe (2008–2025, sans 2011 ni 2022), recalé sur les **arrivées vérifiées** (Wikipedia, Racing Post, France Galop). Pour une explication pas à pas avec un exemple complet, voir [GUIDE.md](GUIDE.md).*
+
+**Changements par rapport à la v0.1**
+1. Les arrivées vérifiées remplacent le document de résultats précédent. Corrections : 2010 (Behkabad 4e), 2018 (Cloth of Stars 3e, Waldgeist 4e, Capri 5e), jockeys de 2008, 2010, 2018 et 2021.
+2. Ajout d'une **hiérarchie des sources** (étape 2).
+3. Suppression d'un **double comptage** : la distance non prouvée était pénalisée deux fois (note D + ajustement −2 dans S1). Voir l'étape 8.
+4. Mise à jour des chiffres de la règle R9 (historique dans l'épreuve).
 
 ---
 
@@ -11,7 +17,7 @@
 | Base empirique | 16 courses, toutes du même type : Groupe 1, 2 400 m, Longchamp ou Chantilly, poids pour l'âge |
 | Validation hors échantillon | **Aucune.** Aucune règle n'a encore été testée sur une course inédite. |
 | Contamination | Je connaissais les résultats, et les documents pré-course contenaient des informations d'après-course. Les « succès » du modèle sont surestimés. |
-| Qualité des données | Les deux documents se contredisent sur les stalles, les jockeys et les pelotons (voir l'audit, section 0) |
+| Qualité des données | Arrivées : **vérifiées** (top 4 ou 5 chaque année, top 10 en 2018, top 8 en 2025). Jockeys : en grande partie confirmés. **Stalles : toujours non vérifiées**, car aucune source fiable ne les fournit encore. |
 | Conséquence | Les règles ci-dessous sont des **a priori à tester**, pas des lois. Leur niveau de confiance est volontairement prudent. |
 
 **Domaine d'application**
@@ -42,7 +48,7 @@
 ### 1.2 Variables potentiellement utiles
 | Variable | Pourquoi |
 |---|---|
-| Historique dans l'épreuve même (top 5 l'année précédente) | 9 sur 22 sont revenus dans les 3 premiers, ce qui est élevé pour des pelotons de 15 à 20 chevaux. Mais beaucoup de chevaux de valeur s'effondrent l'année suivante (Aventure 2025, Los Angeles 2025). |
+| Historique dans l'épreuve même (top 5 l'année précédente) | Selon les arrivées vérifiées, **11 sur 29** sont revenus dans les 3 premiers (38 %), ce qui est élevé pour des pelotons de 15 à 20 chevaux. Exemples : Cloth of Stars (2e en 2017, 3e en 2018), Youmzain, Flintshire, Orfevre. Mais certains déçoivent l'année suivante (Aventure et Los Angeles en 2025). |
 | Écart entre le rating et la cote | Onesto (124 de rating à 50/1, 3e), It's Gino, Nakayama Festa. Peu de cas, et les ratings du document étaient parfois reconstruits. |
 | Âge du champion qui défend son titre | Les champions de 5 ans ou plus favoris ont été battus 3 fois sur 3. Le mécanisme est plausible (déclin, poids plein), mais l'échantillon est minuscule. |
 | Régularité dans les places | Found, Flintshire, Youmzain, Orfevre : utile pour les places, pas pour la victoire. |
@@ -105,7 +111,7 @@ Une interaction n'est retenue comme « règle » que si elle apparaît au moins 
 | R6 | Champion de 5 ans ou plus qui défend son titre comme favori : baisser d'un cran | Cote très basse, poids plein | Supériorité écrasante maintenue dans la saison | 0 victoire sur 3 | Basse |
 | R7 | Un cheval sous-coté (cote ≥ 20/1) mais avec une aptitude **prouvée** au terrain du jour doit figurer dans les ordres d'arrivée possibles | Toujours, et surtout à partir de 3,8 | Aptitude seulement présumée par le pedigree | Al Riffa 2024 (11e) | Moyenne |
 | R8 | La stalle doit être cohérente avec le scénario : si la course se joue à la corde, pénaliser les stalles au-delà de 10 | Peloton de 15 ou plus, open stretch, terrain souple | Jockey qui contourne (Golden Horn 2015) ; finisseurs en lourd | Aventure 2025 (erreur de cohérence) | Basse à moyenne (données à vérifier) |
-| R9 | Un cheval déjà dans les 5 premiers de l'épreuve l'année précédente : +1 cran pour les places | Même parcours, âge ≤ 5 ans | Changement de forme ou de terrain | 13 échecs sur 22 | Moyenne-basse |
+| R9 | Un cheval déjà dans les 5 premiers de l'épreuve l'année précédente : +1 cran pour les places | Même parcours, âge ≤ 5 ans | Changement de forme ou de terrain | 18 échecs sur 29 (11 retours dans le top 3) | Moyenne |
 | R10 | Le favori n'est qu'un candidat parmi 3 ou 4 : la probabilité de victoire du meilleur profil dépasse rarement 35 à 40 % | Toujours | Champion hors normes (Sea The Stars, Enable 2017) | — | Haute (fréquence de base) |
 
 ---
@@ -175,6 +181,13 @@ Chaque course reçoit une **probabilité estimée pour chaque scénario** (somme
 
 ### ÉTAPE 2 : Normalisation des données
 1. **Vérifier l'identité de chaque partant** : stalle, jockey et poids, croisés avec une source officielle. Toute contradiction est signalée et fait baisser la confiance de l'analyse.
+   **Hiérarchie des sources** (de la plus fiable à la moins fiable) :
+   1. France Galop, PMU, Racing Post (officielles) ;
+   2. Wikipedia et presse spécialisée contemporaine ;
+   3. dossier pré-course compilé ;
+   4. synthèses générées après coup.
+
+   En 2008–2025, les erreurs venaient surtout des synthèses générées après coup (arrivées 2010 et 2018, plusieurs jockeys).
 2. **Purger le document** : exclure les conclusions, les « déroulements prédictifs », les indices synthétiques opaques et tout fait postérieur à la course (temps du gagnant, palmarès incluant l'année en cours, allocations révélatrices).
 3. **Convertir** : cotes en probabilités sans marge ; ratings sur une même échelle ; forme en notes ordinales (voir l'étape 3).
 4. **Séparer** les données de **marché** (cotes, mouvements) des données **sportives**. Le marché ne sert qu'à l'étape 9.
@@ -231,13 +244,15 @@ Indice de compatibilité de base, **IC = V + Vp/2 + F + D + T + bonus de poids**
 
 | Scénario | +2 | +1 | −1 | −2 |
 |---|---|---|---|---|
-| S1 | V = 3 et placé | Accélérateur qui tient la distance | Leader | Distance douteuse |
+| S1 | V = 3 et placé | Accélérateur qui tient la distance | Leader | Tenue **contredite** par une course (a déjà calé sur la distance) |
 | S2 | Leader non contesté | Placé, vitesse | Stayer pur | Attentiste extrême |
 | S3 | T = 3 et tenue | Mâle d'âge robuste | Cheval de vitesse, attaque précoce | T présumé seulement |
 | S4 | Stalle 1 à 4, maniable | Stalle 5 à 8 | Stalle 11 à 14 | Stalle 15 et au-delà, finisseur |
 | S5 | Régulier, bien placé | — | Comportement à risque | — |
 
 On obtient un classement par scénario.
+
+**Règle de non-double-comptage (ajoutée en v0.2).** Une même information n'intervient qu'à un seul endroit du calcul. La distance non prouvée est déjà dans la note D : elle ne doit pas être pénalisée une seconde fois dans un scénario. Seule une tenue **contredite** par une course (le cheval a déjà calé sur la distance) justifie l'ajustement −2. Ce défaut a été trouvé en rejouant 2025 (Daryz). Il aurait aussi pénalisé à tort Ace Impact (2023), qui découvrait lui aussi les 2 400 m. Il est corrigé parce que c'est une **erreur de logique**, pas pour coller à un résultat.
 
 ### ÉTAPE 9 : Analyse des risques
 - **Risques individuels** : comportement, distance, calendrier, jockey.
@@ -272,6 +287,22 @@ Donner aussi une **probabilité indicative de victoire** pour les 4 premiers, pl
 **Registre de sortie** : reprendre le format du registre pré-course (ordre, solides, dangereux, dépendants, sous-évalués, hypothèses, risques, variables clés, variables incertaines), **en ajoutant la probabilité de chaque scénario** pour pouvoir l'auditer ensuite.
 
 ---
+
+## 5 bis. Résultat d'un premier test rétrospectif (2025)
+
+Le pipeline a été appliqué tel quel au dossier pré-course 2025 (détail dans [GUIDE.md](GUIDE.md)) :
+- **ordre proposé** : Minnie Hauk, Aventure, Sosie, Kalpana, Byzantine Dream, Daryz ;
+- **ordre réel** : Daryz, Minnie Hauk, Sosie… Aventure 11e.
+
+Ce que le test montre :
+- 2 des 3 premiers sont trouvés ;
+- le vainqueur est classé 6e ;
+- le scénario « corde » (S4), pourtant réalisé, ne pesait que 20 % ;
+- Daryz, sans victoire de Groupe 1, avait une note de valeur faible.
+
+**Je ne modifie pas les pondérations pour faire gagner Daryz après coup** : ce serait du surapprentissage. Ces deux points deviennent des **ajustements candidats**, à tester sur de nouvelles courses :
+- (a) dans un terrain T3 ou T4 avec open stretch et 15 partants ou plus, monter S4 à 30 % ;
+- (b) pour un 3 ans dont la seule faiblesse est la distance non prouvée, utiliser le plafond Vp plutôt que V.
 
 ## 6. Règle anti-surapprentissage
 
