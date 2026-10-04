@@ -308,3 +308,37 @@ Notes de 0 à 3. **IC = V + Vp/2 + F + D + T + bonus de poids.** En T1, le bonus
   - les positions à 600 m ;
   - la trajectoire de Daryz ;
   - si Kalpana a été placée ou attentiste.
+
+---
+
+## Annexe : ordres d'arrivée complets par scénario (calculés avec les mêmes scores, sans modification)
+
+| Rang | Synthétique | SB, course sélective sans domination de Daryz (51 %) | SA, Daryz confirme (37 %) | SC, Friendly Soul contrôle (12 %) |
+|---|---|---|---|---|
+| 1 | 9 Kalpana | 9 Kalpana | 1 Daryz | 10 Friendly Soul |
+| 2 | 15 Thundering On | 15 Thundering On | 9 Kalpana | 9 Kalpana |
+| 3 | 11 Varandir | 11 Varandir | 15 Thundering On | 14 Maltese Cross |
+| 4 | 1 Daryz | 14 Maltese Cross | 10 Friendly Soul | 2 Saddadd |
+| 5 | 14 Maltese Cross | 2 Saddadd | 11 Varandir | 11 Varandir |
+| 6 | 2 Saddadd | 1 Daryz | 14 Maltese Cross | 1 Daryz |
+| 7 | 10 Friendly Soul | 12 Benvenuto Cellini | 2 Saddadd | 15 Thundering On |
+| 8 | 12 Benvenuto Cellini | 10 Friendly Soul | 12 Benvenuto Cellini | 8 Minnie Hauk |
+| 9 | 8 Minnie Hauk | 13 Bright Light | 8 Minnie Hauk | 12 Benvenuto Cellini |
+| 10 | 13 Bright Light | 8 Minnie Hauk | 7 Bay City Roller | 7 Bay City Roller |
+| 11 | 7 Bay City Roller | 16 Diamond Necklace | 13 Bright Light | 3 Chestnut Rocket |
+| 12 | 16 Diamond Necklace | 7 Bay City Roller | 16 Diamond Necklace | 16 Diamond Necklace |
+| 13 | 3 Chestnut Rocket | 3 Chestnut Rocket | 3 Chestnut Rocket | 5 Meisho Tabaru |
+| 14 | 5 Meisho Tabaru | 6 Arrow Eagle | 5 Meisho Tabaru | 13 Bright Light |
+| 15 | 6 Arrow Eagle | 5 Meisho Tabaru | 6 Arrow Eagle | 6 Arrow Eagle |
+| 16 | 4 Admire Terra | 4 Admire Terra | 4 Admire Terra | 4 Admire Terra |
+
+**Variantes internes** (top 4 selon le rythme et la corde, avant fusion) :
+- **SA** :
+  - rythme soutenu : 1 Daryz, 9 Kalpana, 15 Thundering On, 14 Maltese Cross (ou 11 Varandir si la corde paie) ;
+  - rythme modéré : 1 Daryz, 10 Friendly Soul, 9 Kalpana, 14 Maltese Cross (ou 11 Varandir si la corde paie).
+- **SB** :
+  - corde neutre : 9 Kalpana, 15 Thundering On, 14 Maltese Cross, 11 Varandir ;
+  - la corde paie : 15 Thundering On, 9 Kalpana, 11 Varandir, 12 Benvenuto Cellini.
+- **SC** :
+  - corde neutre : 10 Friendly Soul, 9 Kalpana, 14 Maltese Cross, 2 Saddadd ;
+  - la corde paie : 10 Friendly Soul, 9 Kalpana, 11 Varandir, 2 Saddadd ou 15 Thundering On.
