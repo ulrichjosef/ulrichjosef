@@ -9,6 +9,8 @@ Méthode : protocole en 9 sections (course, partants, interactions, déroulement
 
 **Modèle opératoire : voir [PIPELINE.md](PIPELINE.md).**
 
+**Premier test à l'aveugle : [Arc 2026](2026/ANALYSE_ARC_2026.md)** (commité avant le départ).
+
 ## ⚠️ Limites de validité, à lire avant toute exploitation
 
 1. **Aveugle impossible.** Les résultats de ces 18 courses sont dans mes données d'entraînement (y compris 2025). Je me suis limité aux données du document, sans pouvoir garantir que cette connaissance ne m'a pas influencé.

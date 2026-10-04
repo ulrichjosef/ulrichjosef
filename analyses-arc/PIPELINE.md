@@ -247,6 +247,10 @@ Un axe isolé déplace peu la hiérarchie. Les scénarios **réellement distinct
    - un déroulement différent ;
    - un autre cheval en tête ;
    - un cheval qui entre dans le top 4 ou en sort.
+   *Précision v0.3.1 (première application à l'aveugle, Arc 2026)* :
+   - deux chevaux séparés de ≤ 0,5 point sont **co-têtes** ;
+   - « même tête » signifie que les ensembles de co-têtes se recoupent ;
+   - le critère de fusion **prévaut** : la « différence réelle » s'apprécie après fusion.
 6. **Arrêter** quand plus aucune candidate ne passe le test. Le nombre de scénarios obtenu est le résultat.
 7. **Vérifier la couverture.** Au moins un scénario doit couvrir l'hypothèse « le ou les favoris ne reproduisent pas leur niveau » si un drapeau existe (axe A4). Rappel : favori gagnant 5 fois sur 16.
 
