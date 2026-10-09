@@ -1,0 +1,198 @@
+{
+ "overround": 1.1942,
+ "k_power": 1.0849,
+ "partants": [
+  {
+   "n": 10,
+   "cheval": "Irish Nice Elgé",
+   "cote": 3.3,
+   "adj": 0.037,
+   "p_mkt": 0.2738,
+   "p_mod": 0.2779,
+   "p_top3": 0.6719,
+   "p_top5": 0.883,
+   "edge": 0.0041,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 13,
+   "cheval": "I Still Loving You",
+   "cote": 5.1,
+   "adj": 0.007,
+   "p_mkt": 0.1707,
+   "p_mod": 0.1682,
+   "p_top3": 0.4874,
+   "p_top5": 0.741,
+   "edge": -0.0026,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 14,
+   "cheval": "Indien de Fontaine",
+   "cote": 7.8,
+   "adj": -0.003,
+   "p_mkt": 0.1077,
+   "p_mod": 0.105,
+   "p_top3": 0.3337,
+   "p_top5": 0.5713,
+   "edge": -0.0027,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 5,
+   "cheval": "Jytrace de Houelle",
+   "cote": 8.7,
+   "adj": 0.087,
+   "p_mkt": 0.0957,
+   "p_mod": 0.102,
+   "p_top3": 0.3252,
+   "p_top5": 0.5598,
+   "edge": 0.0064,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 6,
+   "cheval": "Jannig d'Erevan",
+   "cote": 10,
+   "adj": 0.047,
+   "p_mkt": 0.0822,
+   "p_mod": 0.0843,
+   "p_top3": 0.2748,
+   "p_top5": 0.4924,
+   "edge": 0.0021,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 15,
+   "cheval": "Ileo Pierji",
+   "cote": 12,
+   "adj": 0.037,
+   "p_mkt": 0.0675,
+   "p_mod": 0.0685,
+   "p_top3": 0.2268,
+   "p_top5": 0.4172,
+   "edge": 0.001,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 2,
+   "cheval": "Heaven d'Ecajeul",
+   "cote": 16,
+   "adj": -0.033,
+   "p_mkt": 0.0494,
+   "p_mod": 0.0467,
+   "p_top3": 0.1612,
+   "p_top5": 0.3076,
+   "edge": -0.0027,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 12,
+   "cheval": "Inherit",
+   "cote": 18,
+   "adj": -0.033,
+   "p_mkt": 0.0435,
+   "p_mod": 0.0411,
+   "p_top3": 0.1431,
+   "p_top5": 0.2747,
+   "edge": -0.0023,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 8,
+   "cheval": "Horizon du Thay",
+   "cote": 28,
+   "adj": -0.003,
+   "p_mkt": 0.0269,
+   "p_mod": 0.0262,
+   "p_top3": 0.0916,
+   "p_top5": 0.1811,
+   "edge": -0.0007,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 3,
+   "cheval": "Horacio de Cerisy",
+   "cote": 30,
+   "adj": -0.003,
+   "p_mkt": 0.025,
+   "p_mod": 0.0243,
+   "p_top3": 0.0862,
+   "p_top5": 0.1709,
+   "edge": -0.0006,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 7,
+   "cheval": "Izijal",
+   "cote": 45,
+   "adj": 0.027,
+   "p_mkt": 0.0161,
+   "p_mod": 0.0162,
+   "p_top3": 0.0575,
+   "p_top5": 0.1159,
+   "edge": 0.0001,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 9,
+   "cheval": "Inédit du Pavillon",
+   "cote": 50,
+   "adj": 0.037,
+   "p_mkt": 0.0143,
+   "p_mod": 0.0146,
+   "p_top3": 0.0513,
+   "p_top5": 0.1035,
+   "edge": 0.0002,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 4,
+   "cheval": "History Majyc",
+   "cote": 60,
+   "adj": -0.043,
+   "p_mkt": 0.0118,
+   "p_mod": 0.011,
+   "p_top3": 0.0392,
+   "p_top5": 0.0799,
+   "edge": -0.0007,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 11,
+   "cheval": "Hove Pont Vautier",
+   "cote": 80,
+   "adj": -0.093,
+   "p_mkt": 0.0086,
+   "p_mod": 0.0077,
+   "p_top3": 0.0278,
+   "p_top5": 0.056,
+   "edge": -0.0009,
+   "kelly_quart": 0.0
+  },
+  {
+   "n": 1,
+   "cheval": "Igloo de Beaulieu",
+   "cote": 99,
+   "adj": -0.063,
+   "p_mkt": 0.0068,
+   "p_mod": 0.0063,
+   "p_top3": 0.0223,
+   "p_top5": 0.0457,
+   "edge": -0.0006,
+   "kelly_quart": 0.0
+  }
+ ],
+ "ordre_modele": [
+  10,
+  13,
+  14,
+  5,
+  6
+ ],
+ "couples": {
+  "couple_10_13": 0.1206,
+  "couple_10_14": 0.0736,
+  "couple_10_5": 0.0705
+ }
+}
