@@ -26,6 +26,9 @@ DISC_POIDS = {'h': 1.0, 's': 0.8, 'p': 0.5, 'c': 0.5}
 
 def num(x):
     x = x.replace('≈', '').replace(',', '.').strip()
+    if re.fullmatch(r'[\d.]+\s*[–-]\s*[\d.]+', x):  # fourchette de cote -> milieu
+        a, b = re.split(r'\s*[–-]\s*', x)
+        return (float(a) + float(b)) / 2
     try:
         return float(x)
     except ValueError:
