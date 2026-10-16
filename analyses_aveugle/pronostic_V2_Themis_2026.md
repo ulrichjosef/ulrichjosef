@@ -86,3 +86,11 @@ Le classement principal (section 2) **ne change pas**. Cette section ajoute les 
 3. Vitesse pure sans recul : **non applicable** (il y a un recul).
 4. Course à inconnues : **partiellement** (historiques contradictoires pour 3, 5, 6, 8).
 5. Trot monté : **non applicable**.
+
+### 6 bis. Addendum (19 h 18) — 5e arrivée possible
+
+| Scénario | Mécanisme | Signes à surveiller pendant la course | Ordre type |
+|---|---|---|---|
+| **E — Domenik Jet impose son rythme** | Domenik Jet, très rapide au départ (« prend la tête ou le leadership du wagon de deux »), s'empare de la tête. Eminent Kronos doit le suivre ou courir à l'extérieur sans être en tête. Domenik Jet résiste, comme lors de sa victoire du 20/09 sur la Grande Piste. | Le 6 en tête dès la descente, le 3 dans son dos ou à son épaule | **6 - 3 - 12 - 7 - 11** |
+
+Les 5 arrivées possibles (A à E) sont des hypothèses, sans probabilités chiffrées. **A reste l'arrivée principale.**
