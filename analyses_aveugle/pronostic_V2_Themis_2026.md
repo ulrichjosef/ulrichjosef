@@ -62,3 +62,27 @@ Fournir l'arrivée officielle (avec DA et NC). Mesures prévues :
 - chevaux du podium dans le top 3 ;
 - comparaison avec le top 3 du marché (3, 6, 12) ;
 - résultat de chaque écart volontaire (tableau 3).
+
+---
+
+## 6. Addendum avant le départ (19 h 06) — scénarios de course alternatifs
+
+Le classement principal (section 2) **ne change pas**. Cette section ajoute les autres déroulements crédibles, construits uniquement à partir des données d'avant course (style des chevaux, rubrique 5 de la fiche). Pas de probabilités chiffrées : le corpus ne permet pas de les calibrer.
+
+**Fait clé :** trois animateurs naturels — 3 Eminent Kronos, 6 Domenik Jet, 7 Kerosen du Gers — tous au 1er échelon, et aucun lièvre déclaré. Les cinq reculés sont surtout des attentistes (12, 13, 15 « attentistes stricts » ; 11 se rapproche dans la plaine ; seul 14 est plus offensif).
+
+| Scénario | Mécanisme | Signes à surveiller pendant la course | Ordre type |
+|---|---|---|---|
+| **A — Principal : le favori contrôle** | Eminent Kronos prend la tête ou contrôle en 1re ligne, à son rythme. Domenik Jet se place dans son sillage. Les reculés n'ont pas assez de train pour combler 25 m. | Eminent Kronos en tête sans être attaqué dans la descente | **3 - 6 - 12 - 11 - 15** |
+| **B — Duel en tête, course pour les attentistes** | Eminent Kronos et Domenik Jet (et Kerosen du Gers) se disputent la tête : rythme soutenu dès la descente. Les attentistes de classe du 2e échelon finissent sur des leaders éprouvés. Mécanisme vu en 2020, 2024 et 2025. | Deux chevaux côte à côte en tête avant la plaine | **12 - 15 - 11 - 3 - 13** |
+| **C — Course lente et tactique** | Personne n'accélère avant la montée. Les chevaux placés devant gardent l'avantage, et les reculés ne comblent pas l'écart (comme en 2019). | Peloton groupé, rythme lent à mi-course | **3 - 6 - 7 - 4 - 12** |
+| **D — Le favori est éliminé** | Faute au départ ou en course d'Eminent Kronos (la musique contestée lui donne peut-être un D récent), ou défaillance après une absence. | Faute au départ ou recul dans le peloton | **6 - 12 - 11 - 15 - 7** |
+
+**Ce qui reste commun aux quatre scénarios :** 12 Jalendra de Malac et 11 Readly Lavec figurent dans les 5 premiers partout. C'est le noyau le plus robuste de l'analyse. À l'inverse, 1 Tretiak (2 D récents) et les chevaux hors de forme (9, 8, 10, 2) n'apparaissent dans aucun.
+
+**Rappel des 5 scénarios généraux de la méthode** (section F de `confrontation_resultats_v1.md`) et de leur application ce soir :
+1. Dominant identifié : **oui**, de justesse (Eminent Kronos à 2,0-2,1).
+2. Second échelon imposant sa classe : **pas reconnu** comme principal (5 reculés seulement, peu de victoires récentes), mais c'est le scénario B si la course est rapide.
+3. Vitesse pure sans recul : **non applicable** (il y a un recul).
+4. Course à inconnues : **partiellement** (historiques contradictoires pour 3, 5, 6, 8).
+5. Trot monté : **non applicable**.
