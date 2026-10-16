@@ -58,7 +58,7 @@ with open('predictions_aveugles.csv', 'w', newline='') as fh:
                 'sc_cote', 'score_A', 'score_total_B', 'rang_A', 'rang_prevu', 'prob_victoire', 'confiance',
                 'criteres_documentation', 'justification', 'horodatage_enregistrement'])
     for a, b in preds.items():
-        an = a.split('_')[0]; var = 'sans_musique' if 'sans' in a else 'complete'
+        an = a.split('_')[0]; var = a.split('_', 1)[1] if '_' in a else 'complete'
         for p in b['partants']:
             s = p['scores']
             W.writerow([f'ECOUEN-{an}', var, b['conditions'].get('Date', ''), p['num'], p['cheval'], p['jockey'], p['poids'],
@@ -76,7 +76,7 @@ with open('evaluation_predictions.csv', 'w', newline='') as fh:
                 'place_reel_top5', 'prob_victoire', 'outsider_identifie', 'favori_fragile_identifie'])
     for a, b in PREDS_EVAL.items():
         an = a.split('_')[0]; arr = R[an]['arrivee']; inc = R[an]['incidents']
-        var = 'sans_musique' if 'sans' in a else 'complete'
+        var = a.split('_', 1)[1] if '_' in a else 'complete'
         for p in b['partants']:
             reel = arr.index(p['num']) + 1 if p['num'] in arr else None
             statut = inc.get(str(p['num']), 'Classé' if reel else f'Non classé dans les {len(arr)} premiers (rang exact inconnu)')
