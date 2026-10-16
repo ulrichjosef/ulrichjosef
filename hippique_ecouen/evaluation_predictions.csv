@@ -1,0 +1,217 @@
+id_course,variante,periode,qualite_donnees,num,cheval,rang_prevu_initial,rang_reel_officiel,gagnant_reel,statut_officiel,ecart_rang,dans_top5_prevu,place_reel_top5,prob_victoire,outsider_identifie,favori_fragile_identifie
+ECOUEN-2015,complete,entrainement,propre,14,Adagio des Bordes,1,3,0,Classé,-2,1,1,0.2903,0,0
+ECOUEN-2015,complete,entrainement,propre,2,Poligroom,2,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.2608,0,0
+ECOUEN-2015,complete,entrainement,propre,10,Malak El Hawa,3,4,0,Classé,-1,1,1,0.1007,0,0
+ECOUEN-2015,complete,entrainement,propre,11,Danceur Brésilien,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.1007,0,0
+ECOUEN-2015,complete,entrainement,propre,8,Astre de Ballon,5,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0365,1,0
+ECOUEN-2015,complete,entrainement,propre,3,A Pleines Dents,6,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0344,0,0
+ECOUEN-2015,complete,entrainement,propre,1,Silver Axe (oe),7,2,0,Classé,5,0,1,0.0326,0,0
+ECOUEN-2015,complete,entrainement,propre,17,Mister Emily,8,1,1,Classé,7,0,1,0.0315,0,0
+ECOUEN-2015,complete,entrainement,propre,5,Perly de Clermont,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0266,0,0
+ECOUEN-2015,complete,entrainement,propre,6,Vangel de Cerisy,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0173,0,0
+ECOUEN-2015,complete,entrainement,propre,12,Blouspan (oe),11,5,0,Classé,6,0,1,0.0154,0,0
+ECOUEN-2015,complete,entrainement,propre,7,Lamigo,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0124,0,0
+ECOUEN-2015,complete,entrainement,propre,4,Cayo de Pail,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0101,0,0
+ECOUEN-2015,complete,entrainement,propre,18,Kingston,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0077,0,0
+ECOUEN-2015,complete,entrainement,propre,9,Sun Zephir,15,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.007,0,0
+ECOUEN-2015,complete,entrainement,propre,15,Vent d'Allier,16,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.006,0,0
+ECOUEN-2015,complete,entrainement,propre,13,Ultraji,17,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0056,0,0
+ECOUEN-2015,complete,entrainement,propre,16,Sistadenn,18,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0043,0,0
+ECOUEN-2016,complete,entrainement,propre,1,Silver Axe (oe),1,1,1,Classé,0,1,1,0.5132,0,0
+ECOUEN-2016,complete,entrainement,propre,8,Bullet Tooth,2,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.094,0,0
+ECOUEN-2016,complete,entrainement,propre,11,Devil Inside,3,5,0,Classé,-2,1,1,0.0883,0,0
+ECOUEN-2016,complete,entrainement,propre,7,Grinamix,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0481,0,0
+ECOUEN-2016,complete,entrainement,propre,5,Rouge Et Sage,5,2,0,Classé,3,1,1,0.0424,1,0
+ECOUEN-2016,complete,entrainement,propre,14,Mukonzi Has,6,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0385,0,0
+ECOUEN-2016,complete,entrainement,propre,10,Lord Lyphard,7,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0364,0,0
+ECOUEN-2016,complete,entrainement,propre,6,Roli Talisker,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.034,0,0
+ECOUEN-2016,complete,entrainement,propre,12,Diamond Charm,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0306,0,0
+ECOUEN-2016,complete,entrainement,propre,9,Argentier,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0134,0,0
+ECOUEN-2016,complete,entrainement,propre,3,News Reel,11,3,0,Classé,8,0,1,0.0128,0,0
+ECOUEN-2016,complete,entrainement,propre,15,Vangel de Cerisy,12,4,0,Classé,8,0,1,0.0108,0,0
+ECOUEN-2016,complete,entrainement,propre,18,Cuevo Especial,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0095,0,0
+ECOUEN-2016,complete,entrainement,propre,17,Plaisir Fou,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0081,0,0
+ECOUEN-2016,complete,entrainement,propre,4,Meissen,15,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0073,0,0
+ECOUEN-2016,complete,entrainement,propre,13,Vanadium,16,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0071,0,0
+ECOUEN-2016,complete,entrainement,propre,16,Arusha Park,17,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0056,0,0
+ECOUEN-2017,complete,entrainement,propre,3,Boston Paris,1,2,0,Classé,-1,1,1,0.4903,0,0
+ECOUEN-2017,complete,entrainement,propre,1,Silver Axe,2,3,0,Classé,-1,1,1,0.1162,0,0
+ECOUEN-2017,complete,entrainement,propre,16,Ferruccio,3,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.1117,0,0
+ECOUEN-2017,complete,entrainement,propre,8,Mallorca,4,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0457,1,0
+ECOUEN-2017,complete,entrainement,propre,13,Malak El Hawa,5,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0394,0,0
+ECOUEN-2017,complete,entrainement,propre,10,Kami Kaze (oe),6,1,1,Classé,5,0,1,0.0358,0,0
+ECOUEN-2017,complete,entrainement,propre,5,Vlatan,7,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0323,0,0
+ECOUEN-2017,complete,entrainement,propre,2,Rasique,8,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0199,0,0
+ECOUEN-2017,complete,entrainement,propre,11,Vic Royal,9,5,0,Classé,4,0,1,0.0186,0,0
+ECOUEN-2017,complete,entrainement,propre,4,Ultra Lucky,10,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0175,0,0
+ECOUEN-2017,complete,entrainement,propre,12,Mukonzi Has,11,4,0,Classé,7,0,1,0.0151,0,0
+ECOUEN-2017,complete,entrainement,propre,15,Vauquoise,12,6,0,Classé,6,0,0,0.0144,0,0
+ECOUEN-2017,complete,entrainement,propre,14,Limnoska,13,7,0,Classé,6,0,0,0.0113,0,0
+ECOUEN-2017,complete,entrainement,propre,7,Coastalina,14,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0109,0,0
+ECOUEN-2017,complete,entrainement,propre,9,Maranjou,15,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0108,0,0
+ECOUEN-2017,complete,entrainement,propre,6,Dylaine,16,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0101,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),7,Côte d'Azur,1,3,0,Classé,-2,1,1,0.6044,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),16,Célèbre d'Allen,2,1,1,Classé,1,1,1,0.0727,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),17,Realm Keeper,3,,0,Tombé,,1,0,0.0619,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),9,Grand Trianon,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0542,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),2,Sable Gris,5,5,0,Classé,0,1,1,0.0456,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),6,Tom Mix,6,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0446,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),1,My Maj,7,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0344,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),4,Ci Blue,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0235,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),18,Ultranet,9,4,0,Classé,5,0,1,0.0204,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),13,Kami Kaze (oe),10,2,0,Classé,8,0,1,0.0195,0,0
+ECOUEN-2018,complete,entrainement,fuite: liste incomplète contenant les 5 placés (sélection liée au résultat),15,Olympic Torch,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0187,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,4,Calayan,1,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.381,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,8,Sampark,2,4,0,Classé,-2,1,1,0.3392,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,2,Dandy du Seuil,3,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0328,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,10,Pagomix,4,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0295,1,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,11,Rasique,5,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0295,1,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,14,Chris de Beaumont,6,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0295,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,3,Foreign Flower,7,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0288,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,12,Yellow Field,8,2,0,Classé,6,0,1,0.0285,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,5,Montgeroult,9,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0279,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,1,Black Luna,10,6,0,Classé,4,0,0,0.0198,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,16,Éclair du Maffray,11,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0149,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,7,Zarisk (oe),12,1,1,Classé,11,0,1,0.0115,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,9,Diva d'Athom,13,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0108,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,15,Crédo des Obeaux,14,5,0,Classé,9,0,1,0.0074,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,6,My Maj,15,3,0,Classé,12,0,1,0.0046,0,0
+ECOUEN-2019,complete,validation,fuite: chevaux sans cote/poids tous non placés,13,Mille Rubis,16,7,0,Classé,9,0,0,0.0044,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),4,Via Maresca,1,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.2766,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),16,Bonaparte Sizing,2,1,1,Classé,1,1,1,0.2405,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),10,Folly Foot,3,2,0,Classé,1,1,1,0.0616,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),6,December,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0501,1,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),8,Emirat,5,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0501,1,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),2,Henry Brulard,6,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0475,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),15,Beauté Promise,7,4,0,Classé,3,0,1,0.0459,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),7,Feu d'Artifice,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0385,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),13,Yellow Field,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0385,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),9,Rock The Race,10,5,0,Classé,5,0,1,0.036,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),3,Faucon du Bosc,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0341,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),5,Éclair du Maffray,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0323,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),11,Via Dolorosa,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0276,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),1,My Maj,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0128,0,0
+ECOUEN-2020,complete,validation,fuite: chevaux sans cote/poids tous non placés (8/15 sans cote),14,Anouma Freedom,15,3,0,Classé,12,0,1,0.0078,0,0
+ECOUEN-2021,complete,validation,propre,13,Elvis de Balme,1,3,0,Classé,-2,1,1,0.4304,0,0
+ECOUEN-2021,complete,validation,propre,5,Spinozzar,2,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.2005,0,0
+ECOUEN-2021,complete,validation,propre,12,Grand Oncle,3,2,0,Classé,1,1,1,0.0731,0,0
+ECOUEN-2021,complete,validation,propre,9,Radiologue,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0472,0,0
+ECOUEN-2021,complete,validation,propre,15,Foreign Flower,5,1,1,Classé,4,1,1,0.0432,1,0
+ECOUEN-2021,complete,validation,propre,6,Monty Saga,6,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0332,0,0
+ECOUEN-2021,complete,validation,propre,4,Ding Ding Dong,7,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0329,0,0
+ECOUEN-2021,complete,validation,propre,2,Anouma Freedom,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0291,0,0
+ECOUEN-2021,complete,validation,propre,14,Clondaw Cian,9,5,0,Classé,4,0,1,0.0242,0,0
+ECOUEN-2021,complete,validation,propre,1,Gold Allen,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0212,0,0
+ECOUEN-2021,complete,validation,propre,3,Pollexfen,11,4,0,Classé,7,0,1,0.0203,0,0
+ECOUEN-2021,complete,validation,propre,16,Brother Bernard,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0201,0,0
+ECOUEN-2021,complete,validation,propre,7,Celtior,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0093,0,0
+ECOUEN-2021,complete,validation,propre,8,Follow Me Soldier,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0083,0,0
+ECOUEN-2021,complete,validation,propre,11,In Extenso,15,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0071,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,1,Happyday,1,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.4124,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,11,Six One,2,2,0,Classé,0,1,1,0.2105,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,14,Chichi de la Vega,3,3,0,Classé,0,1,1,0.0849,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,13,Pharaon,4,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0424,1,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,6,St Romain du Derby,5,,0,Non classé dans les 7 premiers (rang exact inconnu),,1,0,0.0359,1,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,16,Grand Oncle,6,4,0,Classé,2,0,1,0.0286,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,9,Filup,7,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0274,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,10,Galet d'Oudairies,8,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0274,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,15,Mambosun,9,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0251,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,4,Hades,10,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0237,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,5,Valenteene,11,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0229,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,2,Grand de Thaix,12,6,0,Classé,6,0,0,0.0195,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,7,Swapolie du Mathan,13,7,0,Classé,6,0,0,0.0176,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,12,Kapteen,14,1,1,Classé,13,0,1,0.0108,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,3,King of Run,15,5,0,Classé,10,0,1,0.0073,0,0
+ECOUEN-2022,complete,validation,fuite: chevaux sans cote/poids tous non placés,8,Cookilayone,16,,0,Non classé dans les 7 premiers (rang exact inconnu),,0,0,0.0036,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),6,Six One,1,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.3243,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),1,Raf Tavel,2,3,0,Classé,-1,1,1,0.1766,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),8,File au Poteau,3,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.1755,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),7,Dentor des Obeaux,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.102,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),10,Iban Roque,5,2,0,Classé,3,1,1,0.0905,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),14,Rock and Roll,6,5,0,Classé,1,0,1,0.0601,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),9,Lucky One,7,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0205,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),16,Chichi de la Vega,8,1,1,Classé,7,0,1,0.0174,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),5,Odiago,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0054,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),15,Imbatable du Seuil,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0048,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),11,Idéal du Chenet,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0046,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),12,Trou Normand,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0044,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),13,Galop du Large,13,4,0,Classé,9,0,1,0.0039,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),3,Historien,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0037,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),2,Cirano de Pail,15,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0034,0,0
+ECOUEN-2023,complete,test,fuite: datation des musiques incertaine (variante sans musique fournie),4,Free Lord d'Anjou,16,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0029,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),6,Six One,1,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.2744,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),1,Raf Tavel,2,3,0,Classé,-1,1,1,0.1825,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),7,Dentor des Obeaux,3,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.1752,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),8,File au Poteau,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0992,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),10,Iban Roque,5,2,0,Classé,3,1,1,0.0821,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),14,Rock and Roll,6,5,0,Classé,1,0,1,0.049,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),16,Chichi de la Vega,7,1,1,Classé,6,0,1,0.0392,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),9,Lucky One,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0351,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),3,Historien,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0127,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),5,Odiago,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0092,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),15,Imbatable du Seuil,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0082,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),11,Idéal du Chenet,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0078,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),12,Trou Normand,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0076,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),13,Galop du Large,14,4,0,Classé,10,0,1,0.007,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),2,Cirano de Pail,15,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0058,0,0
+ECOUEN-2023,sans_musique,test,fuite: datation des musiques incertaine (variante sans musique fournie),4,Free Lord d'Anjou,16,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.005,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),11,Moi Présidente,1,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.3997,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),1,Mamix's Passion,2,1,1,Classé,1,1,1,0.1696,1,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),6,Folly Foot,3,2,0,Classé,1,1,1,0.0983,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),5,Gurzuf,4,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0925,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),14,Happy Harry,5,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0788,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),7,Athena du Luy,6,4,0,Classé,2,0,1,0.0404,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),15,Just In Time Blue,7,3,0,Classé,4,0,1,0.0258,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),12,Greym,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0242,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),13,Rêve de Prince,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0164,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),10,Saratoga Est,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0124,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),2,Echo de Champdoux,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0102,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),9,Helsinki Nolimit,12,5,0,Classé,7,0,1,0.0073,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),8,Colbert du Berlais,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0065,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),16,Chichi de la Vega,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0061,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),4,Lou Fast,15,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0059,0,0
+ECOUEN-2024,complete,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),3,Flash Davier,16,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0057,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),6,Folly Foot,1,2,0,Classé,-1,1,1,0.5067,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),11,Moi Présidente,2,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.1287,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),14,Happy Harry,3,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0511,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),1,Mamix's Passion,4,1,1,Classé,3,1,1,0.0485,1,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),13,Rêve de Prince,5,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.0463,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),5,Gurzuf,6,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0419,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),7,Athena du Luy,7,4,0,Classé,3,0,1,0.035,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),4,Lou Fast,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0237,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),3,Flash Davier,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0212,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),2,Echo de Champdoux,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.017,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),12,Greym,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0163,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),10,Saratoga Est,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0157,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),16,Chichi de la Vega,13,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0148,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),8,Colbert du Berlais,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0127,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),15,Just In Time Blue,15,3,0,Classé,12,0,1,0.0103,0,0
+ECOUEN-2024,sans_musique,test,fuite: musiques contenant des courses postérieures (variante sans musique = référence),9,Helsinki Nolimit,16,5,0,Classé,11,0,1,0.0102,0,0
+ECOUEN-2025,complete,test,propre,4,Undeniable Alibi,1,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.3695,0,0
+ECOUEN-2025,complete,test,propre,2,Lou Fast,2,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.2205,0,0
+ECOUEN-2025,complete,test,propre,3,Rock and Roll,3,4,0,Classé,-1,1,1,0.1548,0,0
+ECOUEN-2025,complete,test,propre,7,Jackson Ville,4,1,1,Classé,3,1,1,0.1502,0,0
+ECOUEN-2025,complete,test,propre,1,Polyrisk,5,2,0,Classé,3,1,1,0.0437,0,0
+ECOUEN-2025,complete,test,propre,13,Dinozaure,6,3,0,Classé,3,0,1,0.0235,0,0
+ECOUEN-2025,complete,test,propre,9,Jumper Baie,7,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0071,0,0
+ECOUEN-2025,complete,test,propre,5,Rêve de Prince,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0053,0,0
+ECOUEN-2025,complete,test,propre,6,Igloo Igloo,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0048,0,0
+ECOUEN-2025,complete,test,propre,12,Exupéry,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0048,0,0
+ECOUEN-2025,complete,test,propre,8,Instar de Rêve,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0047,0,0
+ECOUEN-2025,complete,test,propre,10,Blekolina,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0047,0,0
+ECOUEN-2025,complete,test,propre,14,Henry Brulard,13,5,0,Classé,8,0,1,0.004,0,0
+ECOUEN-2025,complete,test,propre,11,Furioso,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0025,0,0
+ECOUEN-2025,sans_musique,test,propre,4,Undeniable Alibi,1,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.3938,0,0
+ECOUEN-2025,sans_musique,test,propre,2,Lou Fast,2,,0,Non classé dans les 5 premiers (rang exact inconnu),,1,0,0.202,0,0
+ECOUEN-2025,sans_musique,test,propre,3,Rock and Roll,3,4,0,Classé,-1,1,1,0.1354,0,0
+ECOUEN-2025,sans_musique,test,propre,7,Jackson Ville,4,1,1,Classé,3,1,1,0.1172,0,0
+ECOUEN-2025,sans_musique,test,propre,1,Polyrisk,5,2,0,Classé,3,1,1,0.0455,0,0
+ECOUEN-2025,sans_musique,test,propre,13,Dinozaure,6,3,0,Classé,3,0,1,0.0281,0,0
+ECOUEN-2025,sans_musique,test,propre,9,Jumper Baie,7,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0167,0,0
+ECOUEN-2025,sans_musique,test,propre,6,Igloo Igloo,8,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0135,0,0
+ECOUEN-2025,sans_musique,test,propre,11,Furioso,9,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0134,0,0
+ECOUEN-2025,sans_musique,test,propre,8,Instar de Rêve,10,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0097,0,0
+ECOUEN-2025,sans_musique,test,propre,5,Rêve de Prince,11,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0082,0,0
+ECOUEN-2025,sans_musique,test,propre,12,Exupéry,12,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0064,0,0
+ECOUEN-2025,sans_musique,test,propre,14,Henry Brulard,13,5,0,Classé,8,0,1,0.0054,0,0
+ECOUEN-2025,sans_musique,test,propre,10,Blekolina,14,,0,Non classé dans les 5 premiers (rang exact inconnu),,0,0,0.0046,0,0

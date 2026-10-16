@@ -1,0 +1,63 @@
+perimetre,methode,n_courses,gagnant_1er,gagnant_top3,gagnant_top5,top3_reel_dans_top3,top5_reel_dans_top5,top5_reel_dans_top8,rang_moyen_norm_top5,logloss_gagnant,brier,ponderations
+toutes_annees,combine_B,11,0.091,0.273,0.545,0.424,0.455,0.636,0.415,2.965,1.034,"B = 0,7·A + 0,3·100·p/pmax − 5·(1−fiab) ; A = forme25 apt20 val15 poids15 fiab10 jockey10 cote5"
+toutes_annees,performance_A,11,0.182,0.182,0.364,0.242,0.418,0.582,0.459,,,A seul (pondération initiale)
+toutes_annees,ref_favori_cote,11,0.091,0.273,0.545,0.424,0.509,0.727,0.356,2.419,0.906,cote PMU seule
+toutes_annees,ref_valeur_poids,11,0.182,0.182,0.182,0.242,0.273,0.436,0.518,,,poids/valeur décroissants
+toutes_annees,ref_forme,1,1,1,1,0.333,0.2,0.4,0.492,,,score forme musique seul (2023-2025)
+toutes_annees,melange_0.0,11,0.182,0.182,0.364,0.242,0.418,0.582,0.459,,,mélange (1−λ)·A + λ·marché
+toutes_annees,melange_0.3,11,0.091,0.364,0.545,0.455,0.455,0.636,0.414,,,mélange (1−λ)·A + λ·marché
+toutes_annees,melange_0.5,11,0.091,0.273,0.545,0.424,0.455,0.691,0.415,,,mélange (1−λ)·A + λ·marché
+toutes_annees,melange_0.7,11,0.091,0.273,0.636,0.424,0.491,0.691,0.407,,,mélange (1−λ)·A + λ·marché
+toutes_annees,melange_1.0,11,0.091,0.273,0.636,0.424,0.491,0.691,0.402,,,mélange (1−λ)·A + λ·marché
+annees_propres,combine_B,5,0.2,0.2,0.6,0.4,0.52,0.68,0.339,2.498,0.934,"B = 0,7·A + 0,3·100·p/pmax − 5·(1−fiab) ; A = forme25 apt20 val15 poids15 fiab10 jockey10 cote5"
+annees_propres,performance_A,5,0.4,0.4,0.4,0.267,0.44,0.64,0.401,,,A seul (pondération initiale)
+annees_propres,ref_favori_cote,5,0.2,0.2,0.8,0.4,0.52,0.76,0.329,2.316,0.887,cote PMU seule
+annees_propres,ref_valeur_poids,5,0.2,0.2,0.2,0.4,0.36,0.4,0.512,,,poids/valeur décroissants
+annees_propres,ref_forme,1,1,1,1,0.333,0.2,0.4,0.492,,,score forme musique seul (2023-2025)
+annees_propres,melange_0.0,5,0.4,0.4,0.4,0.267,0.44,0.64,0.401,,,mélange (1−λ)·A + λ·marché
+annees_propres,melange_0.3,5,0.2,0.4,0.6,0.467,0.52,0.68,0.339,,,mélange (1−λ)·A + λ·marché
+annees_propres,melange_0.5,5,0.2,0.2,0.8,0.4,0.52,0.76,0.334,,,mélange (1−λ)·A + λ·marché
+annees_propres,melange_0.7,5,0.2,0.2,1,0.4,0.56,0.76,0.326,,,mélange (1−λ)·A + λ·marché
+annees_propres,melange_1.0,5,0.2,0.2,1,0.4,0.56,0.76,0.326,,,mélange (1−λ)·A + λ·marché
+entrainement,combine_B,4,0.25,0.5,0.5,0.5,0.5,0.65,0.348,2.519,0.955,"B = 0,7·A + 0,3·100·p/pmax − 5·(1−fiab) ; A = forme25 apt20 val15 poids15 fiab10 jockey10 cote5"
+entrainement,performance_A,4,0.25,0.25,0.5,0.333,0.5,0.55,0.427,,,A seul (pondération initiale)
+entrainement,ref_favori_cote,4,0.25,0.5,1,0.5,0.55,0.75,0.33,2.266,0.88,cote PMU seule
+entrainement,ref_valeur_poids,4,0.25,0.25,0.25,0.417,0.4,0.5,0.462,,,poids/valeur décroissants
+entrainement,melange_0.0,4,0.25,0.25,0.5,0.333,0.5,0.55,0.427,,,mélange (1−λ)·A + λ·marché
+entrainement,melange_0.3,4,0.25,0.5,0.5,0.5,0.5,0.65,0.348,,,mélange (1−λ)·A + λ·marché
+entrainement,melange_0.5,4,0.25,0.5,0.75,0.5,0.5,0.75,0.331,,,mélange (1−λ)·A + λ·marché
+entrainement,melange_0.7,4,0.25,0.5,1,0.5,0.55,0.75,0.33,,,mélange (1−λ)·A + λ·marché
+entrainement,melange_1.0,4,0.25,0.5,1,0.5,0.55,0.75,0.33,,,mélange (1−λ)·A + λ·marché
+validation,combine_B,4,0,0.25,0.5,0.5,0.4,0.55,0.47,3.39,1.07,"B = 0,7·A + 0,3·100·p/pmax − 5·(1−fiab) ; A = forme25 apt20 val15 poids15 fiab10 jockey10 cote5"
+validation,performance_A,4,0,0,0,0.0,0.25,0.5,0.548,,,A seul (pondération initiale)
+validation,ref_favori_cote,4,0,0.25,0.25,0.5,0.55,0.7,0.329,2.54,0.925,cote PMU seule
+validation,ref_valeur_poids,4,0,0,0,0.0,0.15,0.35,0.563,,,poids/valeur décroissants
+validation,melange_0.0,4,0,0,0,0.0,0.25,0.5,0.548,,,mélange (1−λ)·A + λ·marché
+validation,melange_0.3,4,0,0.25,0.5,0.5,0.4,0.55,0.47,,,mélange (1−λ)·A + λ·marché
+validation,melange_0.5,4,0,0.25,0.5,0.5,0.45,0.6,0.473,,,mélange (1−λ)·A + λ·marché
+validation,melange_0.7,4,0,0.25,0.5,0.5,0.5,0.6,0.463,,,mélange (1−λ)·A + λ·marché
+validation,melange_1.0,4,0,0.25,0.5,0.5,0.5,0.6,0.456,,,mélange (1−λ)·A + λ·marché
+test,combine_B,3,0,0,0.667,0.222,0.467,0.733,0.431,2.991,1.093,"B = 0,7·A + 0,3·100·p/pmax − 5·(1−fiab) ; A = forme25 apt20 val15 poids15 fiab10 jockey10 cote5"
+test,performance_A,3,0.333,0.333,0.667,0.444,0.533,0.733,0.384,,,A seul (pondération initiale)
+test,ref_favori_cote,3,0,0,0.333,0.222,0.4,0.733,0.427,2.462,0.917,cote PMU seule
+test,ref_valeur_poids,3,0.333,0.333,0.333,0.333,0.267,0.467,0.534,,,poids/valeur décroissants
+test,ref_forme,1,1,1,1,0.333,0.2,0.4,0.492,,,score forme musique seul (2023-2025)
+test,melange_0.0,3,0.333,0.333,0.667,0.444,0.533,0.733,0.384,,,mélange (1−λ)·A + λ·marché
+test,melange_0.3,3,0,0.333,0.667,0.333,0.467,0.733,0.427,,,mélange (1−λ)·A + λ·marché
+test,melange_0.5,3,0,0,0.333,0.222,0.4,0.733,0.449,,,mélange (1−λ)·A + λ·marché
+test,melange_0.7,3,0,0,0.333,0.222,0.4,0.733,0.436,,,mélange (1−λ)·A + λ·marché
+test,melange_1.0,3,0,0,0.333,0.222,0.4,0.733,0.427,,,mélange (1−λ)·A + λ·marché
+test_sans_musique,combine_B,3,0,0,0.667,0.222,0.467,0.733,0.431,2.803,1.09,"B = 0,7·A + 0,3·100·p/pmax − 5·(1−fiab) ; A = forme25 apt20 val15 poids15 fiab10 jockey10 cote5"
+test_sans_musique,performance_A,3,0,0.333,0.667,0.556,0.4,0.733,0.424,,,A seul (pondération initiale)
+test_sans_musique,ref_favori_cote,3,0,0,0.333,0.222,0.4,0.733,0.427,2.462,0.917,cote PMU seule
+test_sans_musique,ref_valeur_poids,3,0.333,0.333,0.333,0.333,0.267,0.467,0.534,,,poids/valeur décroissants
+test_sans_musique,melange_0.0,3,0,0.333,0.667,0.556,0.4,0.733,0.424,,,mélange (1−λ)·A + λ·marché
+test_sans_musique,melange_0.3,3,0,0,0.667,0.222,0.467,0.733,0.431,,,mélange (1−λ)·A + λ·marché
+test_sans_musique,melange_0.5,3,0,0,0.333,0.222,0.4,0.733,0.444,,,mélange (1−λ)·A + λ·marché
+test_sans_musique,melange_0.7,3,0,0,0.333,0.222,0.4,0.733,0.436,,,mélange (1−λ)·A + λ·marché
+test_sans_musique,melange_1.0,3,0,0,0.333,0.222,0.4,0.733,0.427,,,mélange (1−λ)·A + λ·marché
+toutes_annees,combine_B_v2_retrospectif,11,0.091,0.273,0.545,0.424,0.509,0.655,0.385,2.666,0.953,"B v2 : cote manquante = part de la masse restante (livre 118 %), T=12 — POST-HOC"
+annees_propres,combine_B_v2_retrospectif,5,0.2,0.2,0.6,0.4,0.52,0.68,0.339,2.386,0.889,"B v2 : cote manquante = part de la masse restante (livre 118 %), T=12 — POST-HOC"
+test,combine_B_v2_retrospectif,3,0,0,0.667,0.222,0.467,0.733,0.431,2.683,0.98,"B v2 : cote manquante = part de la masse restante (livre 118 %), T=12 — POST-HOC"
+toutes_annees,ref_hasard (espérance),11,0.066,0.197,0.328,0.197,0.328,0.525,0.5,2.731,,aucune
+annees_propres,ref_hasard (espérance),5,0.063,0.189,0.315,0.189,0.315,0.504,0.5,2.769,,aucune

@@ -20,12 +20,16 @@ JOCKEYS_B = ['duchêne', 'duchene', 'cottin', 'lecordier', 'carberry', 'regairaz
              'cheminaud', 'quinton', 'jouin', 'seguy', 'betron', 'nattiez', 'mosse']
 NEUTRE = 0.5          # critère non documenté -> note neutre (jamais pénalisante)
 TEMP = 8.0            # température softmax score -> probabilité de victoire
+# v2 (décidée APRÈS l'évaluation 2015-2025, AVANT la course 2026) : cote manquante -> part égale de la
+# masse de probabilité restante (livre ~118 %) au lieu d'une note neutre ; softmax moins confiante.
+V2 = False
+LIVRE = 1.18
 POS_NOTE = {1: 10, 2: 8, 3: 7, 4: 6, 5: 5, 6: 3, 7: 3, 8: 3, 9: 3, 0: 1}
 DISC_POIDS = {'h': 1.0, 's': 0.8, 'p': 0.5, 'c': 0.5}
 
 
 def num(x):
-    x = x.replace('≈', '').replace(',', '.').strip()
+    x = x.replace('≈', '').replace('*', '').replace(',', '.').strip()
     if re.fullmatch(r'[\d.]+\s*[–-]\s*[\d.]+', x):  # fourchette de cote -> milieu
         a, b = re.split(r'\s*[–-]\s*', x)
         return (float(a) + float(b)) / 2
@@ -75,6 +79,9 @@ def scorer(rows, cond):
     pmin, pmax = min(pv), max(pv)
     cotes = [num(r.get('Cote PMU finale') or r.get('Cote PMU') or '') for r in rows]
     probs = [1 / c if c else None for c in cotes]
+    if V2 and any(p is None for p in probs):
+        reste = max(LIVRE - sum(p for p in probs if p), 0.02 * probs.count(None))
+        probs = [p if p else reste / probs.count(None) for p in probs]
     s = sum(p for p in probs if p)
     probs = [p / s if p else None for p in probs]
     pmaxm = max(p for p in probs if p)
@@ -124,7 +131,7 @@ def scorer(rows, cond):
                         poids=p, valeur=vals[i], cote=cotes[i], prob_marche=probs[i],
                         musique=r.get('Musique', ''), scores=sc, documentation=doc,
                         score_A=A, score_B=round(B, 2)))
-    z = [math.exp(o['score_B'] / TEMP) for o in out]
+    z = [math.exp(o['score_B'] / (12.0 if V2 else TEMP)) for o in out]
     for o, zi in zip(out, z):
         o['prob_victoire'] = round(zi / sum(z), 4)
     for key, rk in (('score_A', 'rang_A'), ('score_B', 'rang_prevu')):
@@ -156,6 +163,9 @@ if __name__ == '__main__':
     if '--sans-musique' in sys.argv:  # variante : musiques suspectes de fuite post-course
         for r in rows: r['Musique'] = '–'
         annee += '_sans_musique'
+    if '--v2' in sys.argv:
+        V2, TEMP = True, 12.0
+        annee += '_v2'
     res = scorer(rows, cond)
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
     blob = dict(course=f'ECOUEN-{annee}', annee=annee, conditions=cond, horodatage=now,

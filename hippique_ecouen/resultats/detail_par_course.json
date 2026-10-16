@@ -1,0 +1,483 @@
+{
+ "2015": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.29411764705882354
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.27058823529411763
+  },
+  "rang_prevu_gagnant": 8,
+  "rang_cote_gagnant": 5,
+  "cote_gagnant": 10.7,
+  "top5_prevu": [
+   14,
+   2,
+   10,
+   11,
+   8
+  ],
+  "arrivee": [
+   17,
+   1,
+   14,
+   10,
+   12
+  ],
+  "outsiders": [
+   [
+    8,
+    null
+   ]
+  ],
+  "fragiles": []
+ },
+ "2016": {
+  "combine_B": {
+   "gagnant_1er": 1,
+   "gagnant_top3": 1,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.3375
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 1,
+   "gagnant_top3": 1,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.3625
+  },
+  "rang_prevu_gagnant": 1,
+  "rang_cote_gagnant": 1,
+  "cote_gagnant": 5.1,
+  "top5_prevu": [
+   1,
+   8,
+   11,
+   7,
+   5
+  ],
+  "arrivee": [
+   1,
+   5,
+   3,
+   15,
+   11
+  ],
+  "outsiders": [
+   [
+    5,
+    2
+   ]
+  ],
+  "fragiles": []
+ },
+ "2017": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.32
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.26666666666666666
+  },
+  "rang_prevu_gagnant": 6,
+  "rang_cote_gagnant": 5,
+  "cote_gagnant": 10.2,
+  "top5_prevu": [
+   3,
+   1,
+   16,
+   8,
+   13
+  ],
+  "arrivee": [
+   10,
+   3,
+   1,
+   12,
+   11
+  ],
+  "outsiders": [
+   [
+    8,
+    null
+   ]
+  ],
+  "fragiles": []
+ },
+ "2018": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 1,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.44
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 1,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.42
+  },
+  "rang_prevu_gagnant": 2,
+  "rang_cote_gagnant": 3,
+  "cote_gagnant": 9.1,
+  "top5_prevu": [
+   7,
+   16,
+   17,
+   9,
+   2
+  ],
+  "arrivee": [
+   16,
+   13,
+   7,
+   18,
+   2
+  ],
+  "outsiders": [],
+  "fragiles": []
+ },
+ "2019": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.0,
+   "top5_reel_dans_top5": 0.2,
+   "top5_reel_dans_top8": 0.4,
+   "rang_moyen_norm_top5": 0.6133333333333333
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.0,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.4,
+   "rang_moyen_norm_top5": 0.4666666666666667
+  },
+  "rang_prevu_gagnant": 12,
+  "rang_cote_gagnant": 10,
+  "cote_gagnant": 18.9,
+  "top5_prevu": [
+   4,
+   8,
+   2,
+   10,
+   11
+  ],
+  "arrivee": [
+   7,
+   12,
+   6,
+   8,
+   15
+  ],
+  "outsiders": [
+   [
+    10,
+    null
+   ],
+   [
+    11,
+    null
+   ]
+  ],
+  "fragiles": []
+ },
+ "2020": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 1,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.45714285714285713
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 1,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.8,
+   "top5_reel_dans_top8": 1.0,
+   "rang_moyen_norm_top5": 0.21428571428571427
+  },
+  "rang_prevu_gagnant": 2,
+  "rang_cote_gagnant": 2,
+  "cote_gagnant": 6.5,
+  "top5_prevu": [
+   4,
+   16,
+   10,
+   6,
+   8
+  ],
+  "arrivee": [
+   16,
+   10,
+   14,
+   15,
+   9
+  ],
+  "outsiders": [
+   [
+    6,
+    null
+   ],
+   [
+    8,
+    null
+   ]
+  ],
+  "fragiles": []
+ },
+ "2021": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.34285714285714286
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.34285714285714286
+  },
+  "rang_prevu_gagnant": 5,
+  "rang_cote_gagnant": 6,
+  "cote_gagnant": 11.0,
+  "top5_prevu": [
+   13,
+   5,
+   12,
+   9,
+   15
+  ],
+  "arrivee": [
+   15,
+   12,
+   13,
+   3,
+   14
+  ],
+  "outsiders": [
+   [
+    15,
+    1
+   ]
+  ],
+  "fragiles": []
+ },
+ "2022": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.4666666666666667
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.6666666666666666,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.29333333333333333
+  },
+  "rang_prevu_gagnant": 14,
+  "rang_cote_gagnant": 9,
+  "cote_gagnant": 22.3,
+  "top5_prevu": [
+   1,
+   11,
+   14,
+   13,
+   6
+  ],
+  "arrivee": [
+   12,
+   11,
+   14,
+   16,
+   3
+  ],
+  "outsiders": [
+   [
+    13,
+    null
+   ],
+   [
+    6,
+    null
+   ]
+  ],
+  "fragiles": []
+ },
+ "2023": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.38666666666666666
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.4
+  },
+  "rang_prevu_gagnant": 8,
+  "rang_cote_gagnant": 7,
+  "cote_gagnant": 11.8,
+  "top5_prevu": [
+   6,
+   1,
+   8,
+   7,
+   10
+  ],
+  "arrivee": [
+   16,
+   10,
+   1,
+   13,
+   14
+  ],
+  "outsiders": [],
+  "fragiles": []
+ },
+ "2024": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.4,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.5066666666666667
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 0,
+   "top3_reel_dans_top3": 0.3333333333333333,
+   "top5_reel_dans_top5": 0.2,
+   "top5_reel_dans_top8": 0.6,
+   "rang_moyen_norm_top5": 0.48
+  },
+  "rang_prevu_gagnant": 4,
+  "rang_cote_gagnant": 6,
+  "cote_gagnant": 12.0,
+  "top5_prevu": [
+   6,
+   11,
+   14,
+   1,
+   13
+  ],
+  "arrivee": [
+   1,
+   6,
+   15,
+   7,
+   9
+  ],
+  "outsiders": [
+   [
+    1,
+    1
+   ]
+  ],
+  "fragiles": []
+ },
+ "2025": {
+  "combine_B": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.0,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.4
+  },
+  "ref_favori_cote": {
+   "gagnant_1er": 0,
+   "gagnant_top3": 0,
+   "gagnant_top5": 1,
+   "top3_reel_dans_top3": 0.0,
+   "top5_reel_dans_top5": 0.6,
+   "top5_reel_dans_top8": 0.8,
+   "rang_moyen_norm_top5": 0.4
+  },
+  "rang_prevu_gagnant": 4,
+  "rang_cote_gagnant": 4,
+  "cote_gagnant": 7.1,
+  "top5_prevu": [
+   4,
+   2,
+   3,
+   7,
+   1
+  ],
+  "arrivee": [
+   7,
+   1,
+   13,
+   3,
+   14
+  ],
+  "outsiders": [],
+  "fragiles": []
+ }
+}
