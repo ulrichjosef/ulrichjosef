@@ -153,6 +153,9 @@ def scorer(rows, cond):
 if __name__ == '__main__':
     path, annee, dossier = sys.argv[1], sys.argv[2], sys.argv[3]
     rows, cond = lire(path)
+    if '--sans-musique' in sys.argv:  # variante : musiques suspectes de fuite post-course
+        for r in rows: r['Musique'] = '–'
+        annee += '_sans_musique'
     res = scorer(rows, cond)
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
     blob = dict(course=f'ECOUEN-{annee}', annee=annee, conditions=cond, horodatage=now,
