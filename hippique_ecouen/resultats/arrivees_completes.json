@@ -1,0 +1,1587 @@
+{
+ "2025": {
+  "partants": 14,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 7,
+    "cheval": "Jackson Ville",
+    "jockey": "C. Lefebvre",
+    "poids": "68",
+    "ecart": "–",
+    "cote": "7,1"
+   },
+   {
+    "rang": "2",
+    "num": 1,
+    "cheval": "Polyrisk",
+    "jockey": "B. Gelhay",
+    "poids": "72",
+    "ecart": "4 L",
+    "cote": "9,9"
+   },
+   {
+    "rang": "3",
+    "num": 13,
+    "cheval": "Dinozaure",
+    "jockey": "L. Philipperon",
+    "poids": "62",
+    "ecart": "½ L",
+    "cote": "11"
+   },
+   {
+    "rang": "4",
+    "num": 3,
+    "cheval": "Rock and Roll",
+    "jockey": "B. Le Clerc",
+    "poids": "71",
+    "ecart": "4 ½ L",
+    "cote": "6,2"
+   },
+   {
+    "rang": "5",
+    "num": 14,
+    "cheval": "Henry Brulard",
+    "jockey": "T. Chevillard",
+    "poids": "62",
+    "ecart": "1 ½ L",
+    "cote": "37"
+   },
+   {
+    "rang": "6",
+    "num": 2,
+    "cheval": "Lou Fast",
+    "jockey": "L.-P. Bréchet",
+    "poids": "71,5",
+    "ecart": "¾ L",
+    "cote": "5,6"
+   },
+   {
+    "rang": "7",
+    "num": 8,
+    "cheval": "Instar de Rêve",
+    "jockey": "Q. Samaria",
+    "poids": "67,5",
+    "ecart": "3 L",
+    "cote": "21"
+   },
+   {
+    "rang": "8",
+    "num": 5,
+    "cheval": "Rêve de Prince",
+    "jockey": "J.-B. Breton",
+    "poids": "69,5",
+    "ecart": "Tête",
+    "cote": "28"
+   },
+   {
+    "rang": "9",
+    "num": 9,
+    "cheval": "Jumper Baie",
+    "jockey": "N. Ferreira",
+    "poids": "65,5",
+    "ecart": "¾ L",
+    "cote": "13"
+   },
+   {
+    "rang": "10",
+    "num": 4,
+    "cheval": "Undeniable Alibi",
+    "jockey": "J. Reveley",
+    "poids": "70",
+    "ecart": "1 L",
+    "cote": "5,2"
+   },
+   {
+    "rang": "11",
+    "num": 12,
+    "cheval": "Exupéry",
+    "jockey": "L. Zuliani",
+    "poids": "63",
+    "ecart": "4 L",
+    "cote": "33"
+   },
+   {
+    "rang": "AR",
+    "num": 6,
+    "cheval": "Igloo Igloo",
+    "jockey": "T. Beaurain",
+    "poids": "68",
+    "ecart": "–",
+    "cote": "24"
+   },
+   {
+    "rang": "AR",
+    "num": 10,
+    "cheval": "Blekolina",
+    "jockey": "A. Renard",
+    "poids": "65,5",
+    "ecart": "–",
+    "cote": "58"
+   },
+   {
+    "rang": "AR",
+    "num": 11,
+    "cheval": "Furioso",
+    "jockey": "K. Nabet",
+    "poids": "65",
+    "ecart": "–",
+    "cote": "21"
+   }
+  ]
+ },
+ "2024": {
+  "partants": 16,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 1,
+    "cheval": "Mamix's Passion",
+    "jockey": "G. Meunier",
+    "poids": "72",
+    "ecart": "–",
+    "cote": "12"
+   },
+   {
+    "rang": "2",
+    "num": 6,
+    "cheval": "Folly Foot",
+    "jockey": "J. Reveley",
+    "poids": "70",
+    "ecart": "6 ½ L",
+    "cote": "5,6"
+   },
+   {
+    "rang": "3",
+    "num": 15,
+    "cheval": "Just In Time Blue",
+    "jockey": "R. Mayeur",
+    "poids": "65,5",
+    "ecart": "¾ L",
+    "cote": "22"
+   },
+   {
+    "rang": "4",
+    "num": 7,
+    "cheval": "Athena du Luy",
+    "jockey": "Mlle C. Prichard",
+    "poids": "70",
+    "ecart": "Encolure",
+    "cote": "12"
+   },
+   {
+    "rang": "5",
+    "num": 9,
+    "cheval": "Helsinki Nolimit",
+    "jockey": "B. Le Clerc",
+    "poids": "68",
+    "ecart": "Tête",
+    "cote": "27"
+   },
+   {
+    "rang": "6",
+    "num": 14,
+    "cheval": "Happy Harry",
+    "jockey": "A. Zuliani",
+    "poids": "66,5",
+    "ecart": "Tête",
+    "cote": "9,7"
+   },
+   {
+    "rang": "7",
+    "num": 5,
+    "cheval": "Gurzuf",
+    "jockey": "M. O'Sullivan",
+    "poids": "70",
+    "ecart": "2 L",
+    "cote": "11"
+   },
+   {
+    "rang": "8",
+    "num": 10,
+    "cheval": "Saratoga Est",
+    "jockey": "T. Andrieux",
+    "poids": "68",
+    "ecart": "9 L",
+    "cote": "18"
+   },
+   {
+    "rang": "9",
+    "num": 12,
+    "cheval": "Greym",
+    "jockey": "F. de Giles",
+    "poids": "68",
+    "ecart": "1 ½ L",
+    "cote": "26"
+   },
+   {
+    "rang": "10",
+    "num": 8,
+    "cheval": "Colbert du Berlais",
+    "jockey": "Mme B. Frost",
+    "poids": "70",
+    "ecart": "3 L",
+    "cote": "25"
+   },
+   {
+    "rang": "11",
+    "num": 2,
+    "cheval": "Echo de Champdoux",
+    "jockey": "O. Jouin",
+    "poids": "71",
+    "ecart": "Tête",
+    "cote": "24"
+   },
+   {
+    "rang": "12",
+    "num": 4,
+    "cheval": "Lou Fast",
+    "jockey": "L.-P. Bréchet",
+    "poids": "70",
+    "ecart": "3 L",
+    "cote": "15"
+   },
+   {
+    "rang": "13",
+    "num": 16,
+    "cheval": "Chichi de la Vega",
+    "jockey": "N. Gauffenic",
+    "poids": "65",
+    "ecart": "Encolure",
+    "cote": "16"
+   },
+   {
+    "rang": "14",
+    "num": 11,
+    "cheval": "Moi Présidente",
+    "jockey": "C. Lefebvre",
+    "poids": "68",
+    "ecart": "7 L",
+    "cote": "7,9"
+   },
+   {
+    "rang": "AR",
+    "num": 3,
+    "cheval": "Flash Davier",
+    "jockey": "B. Lestrade",
+    "poids": "70,5",
+    "ecart": "–",
+    "cote": "24"
+   },
+   {
+    "rang": "AR",
+    "num": 13,
+    "cheval": "Rêve de Prince",
+    "jockey": "J.-B. Breton",
+    "poids": "66,5",
+    "ecart": "–",
+    "cote": "9,4"
+   }
+  ]
+ },
+ "2023": {
+  "partants": 16,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 16,
+    "cheval": "Chichi de la Vega",
+    "jockey": "C. Lefebvre",
+    "poids": "66,5",
+    "ecart": "–",
+    "cote": "11,8"
+   },
+   {
+    "rang": "2",
+    "num": 10,
+    "cheval": "Iban Roque",
+    "jockey": "J. Reveley",
+    "poids": "68",
+    "ecart": "1 ¼ L",
+    "cote": "9,3"
+   },
+   {
+    "rang": "3",
+    "num": 1,
+    "cheval": "Raf Tavel",
+    "jockey": "K. Nabet",
+    "poids": "72",
+    "ecart": "¾ L",
+    "cote": "8,1"
+   },
+   {
+    "rang": "4",
+    "num": 13,
+    "cheval": "Galop du Large",
+    "jockey": "J. Charron",
+    "poids": "68",
+    "ecart": "1 ¼ L",
+    "cote": "74"
+   },
+   {
+    "rang": "5",
+    "num": 14,
+    "cheval": "Rock and Roll",
+    "jockey": "D. Ubeda",
+    "poids": "67,5",
+    "ecart": "2 L",
+    "cote": "9,4"
+   },
+   {
+    "rang": "6",
+    "num": 6,
+    "cheval": "Six One",
+    "jockey": "A. Zuliani",
+    "poids": "69",
+    "ecart": "1 L",
+    "cote": "≈ 5,5–7"
+   },
+   {
+    "rang": "7",
+    "num": 8,
+    "cheval": "File au Poteau",
+    "jockey": "L. Philipperon",
+    "poids": "69",
+    "ecart": "2 L",
+    "cote": "≈ 9"
+   },
+   {
+    "rang": "8",
+    "num": 9,
+    "cheval": "Lucky One",
+    "jockey": "G. Meunier",
+    "poids": "68,5",
+    "ecart": "4 L",
+    "cote": "≈ 12"
+   },
+   {
+    "rang": "9",
+    "num": 7,
+    "cheval": "Dentor des Obeaux",
+    "jockey": "O. Jouin",
+    "poids": "69",
+    "ecart": "1 ¼ L",
+    "cote": "≈ 7"
+   },
+   {
+    "rang": "10",
+    "num": 5,
+    "cheval": "Odiago",
+    "jockey": "D. Gallon",
+    "poids": "70",
+    "ecart": "2 L",
+    "cote": "≈ 30"
+   },
+   {
+    "rang": "11",
+    "num": 15,
+    "cheval": "Imbatable du Seuil",
+    "jockey": "L. Zuliani",
+    "poids": "67,5",
+    "ecart": "10 L",
+    "cote": "≈ 32"
+   },
+   {
+    "rang": "12",
+    "num": 2,
+    "cheval": "Cirano de Pail",
+    "jockey": "J.-B. Breton",
+    "poids": "71,5",
+    "ecart": "11 L",
+    "cote": "≈ 98"
+   },
+   {
+    "rang": "13",
+    "num": 12,
+    "cheval": "Trou Normand",
+    "jockey": "G. Ré",
+    "poids": "68",
+    "ecart": "5 ½ L",
+    "cote": "≈ 30"
+   },
+   {
+    "rang": "14",
+    "num": 4,
+    "cheval": "Free Lord d'Anjou",
+    "jockey": "R. Mayeur",
+    "poids": "70,5",
+    "ecart": "¾ L",
+    "cote": "≈ 127"
+   },
+   {
+    "rang": "15",
+    "num": 11,
+    "cheval": "Idéal du Chenet",
+    "jockey": "M. Farcinade",
+    "poids": "68",
+    "ecart": "Encolure",
+    "cote": "≈ 29"
+   },
+   {
+    "rang": "AR",
+    "num": 3,
+    "cheval": "Historien",
+    "jockey": "N. Gauffenic",
+    "poids": "71,5",
+    "ecart": "–",
+    "cote": "≈ 25"
+   }
+  ]
+ },
+ "2022": {
+  "partants": 16,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 12,
+    "cheval": "Kapteen",
+    "jockey": "C. Lefebvre",
+    "poids": "64,5",
+    "ecart": "–",
+    "cote": "22,3"
+   },
+   {
+    "rang": "2",
+    "num": 11,
+    "cheval": "Six One",
+    "jockey": "A. Zuliani",
+    "poids": "64,5",
+    "ecart": "4 ½ L",
+    "cote": "5,1"
+   },
+   {
+    "rang": "3",
+    "num": 14,
+    "cheval": "Chichi de la Vega",
+    "jockey": "L. Philipperon",
+    "poids": "64",
+    "ecart": "10 L",
+    "cote": "7"
+   },
+   {
+    "rang": "4",
+    "num": 16,
+    "cheval": "Grand Oncle",
+    "jockey": "O. Jouin",
+    "poids": "64",
+    "ecart": "¾ L",
+    "cote": "9,6"
+   },
+   {
+    "rang": "5",
+    "num": 3,
+    "cheval": "King of Run",
+    "jockey": "J. Da Silva",
+    "poids": "69,5",
+    "ecart": "1 ¾ L",
+    "cote": "32"
+   },
+   {
+    "rang": "6",
+    "num": 2,
+    "cheval": "Grand de Thaix",
+    "jockey": "J. Charron",
+    "poids": "70",
+    "ecart": "1 ¼ L",
+    "cote": "18"
+   },
+   {
+    "rang": "7",
+    "num": 7,
+    "cheval": "Swapolie du Mathan",
+    "jockey": "G. Masure",
+    "poids": "65,5",
+    "ecart": "20 L",
+    "cote": "13"
+   },
+   {
+    "rang": "8",
+    "num": 8,
+    "cheval": "Cookilayone",
+    "jockey": "D. Ubeda",
+    "poids": "65",
+    "ecart": "20 L",
+    "cote": "79"
+   },
+   {
+    "rang": "AR",
+    "num": 1,
+    "cheval": "Happyday",
+    "jockey": "J. Reveley",
+    "poids": "72",
+    "ecart": "–",
+    "cote": "5,2"
+   },
+   {
+    "rang": "AR",
+    "num": 4,
+    "cheval": "Hades",
+    "jockey": "K. Nabet",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "13"
+   },
+   {
+    "rang": "AR",
+    "num": 5,
+    "cheval": "Valenteene",
+    "jockey": "B. Lestrade",
+    "poids": "65,5",
+    "ecart": "–",
+    "cote": "13"
+   },
+   {
+    "rang": "AR",
+    "num": 6,
+    "cheval": "St Romain du Derby",
+    "jockey": "T. Beaurain",
+    "poids": "65,5",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 9,
+    "cheval": "Filup",
+    "jockey": "G. Ré",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 10,
+    "cheval": "Galet d'Oudairies",
+    "jockey": "B. Le Clerc",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 13,
+    "cheval": "Pharaon",
+    "jockey": "F. de Giles",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "T",
+    "num": 15,
+    "cheval": "Mambosun",
+    "jockey": "T. Chevillard",
+    "poids": "64",
+    "ecart": "–",
+    "cote": "–"
+   }
+  ]
+ },
+ "2021": {
+  "partants": 15,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 15,
+    "cheval": "Foreign Flower",
+    "jockey": "L. Philipperon",
+    "poids": "66,5",
+    "ecart": "–",
+    "cote": "11"
+   },
+   {
+    "rang": "2",
+    "num": 12,
+    "cheval": "Grand Oncle",
+    "jockey": "O. Jouin",
+    "poids": "67,5",
+    "ecart": "2 L",
+    "cote": "7,8"
+   },
+   {
+    "rang": "3",
+    "num": 13,
+    "cheval": "Elvis de Balme",
+    "jockey": "A. Zuliani",
+    "poids": "67,5",
+    "ecart": "Encolure",
+    "cote": "4,5"
+   },
+   {
+    "rang": "4",
+    "num": 3,
+    "cheval": "Pollexfen",
+    "jockey": "J. Charron",
+    "poids": "70",
+    "ecart": "½ L",
+    "cote": "29"
+   },
+   {
+    "rang": "5",
+    "num": 14,
+    "cheval": "Clondaw Cian",
+    "jockey": "C. Gethings",
+    "poids": "66,5",
+    "ecart": "½ L",
+    "cote": "12"
+   },
+   {
+    "rang": "6",
+    "num": 2,
+    "cheval": "Anouma Freedom",
+    "jockey": "J. Da Silva",
+    "poids": "70",
+    "ecart": "½ L",
+    "cote": "13"
+   },
+   {
+    "rang": "7",
+    "num": 1,
+    "cheval": "Gold Allen",
+    "jockey": "T. Chevillard",
+    "poids": "72",
+    "ecart": "7 L",
+    "cote": "24"
+   },
+   {
+    "rang": "8",
+    "num": 5,
+    "cheval": "Spinozzar",
+    "jockey": "T. Lemagnen",
+    "poids": "69,5",
+    "ecart": "Encolure",
+    "cote": "5,8"
+   },
+   {
+    "rang": "9",
+    "num": 9,
+    "cheval": "Radiologue",
+    "jockey": "F. de Giles",
+    "poids": "67,5",
+    "ecart": "Nez",
+    "cote": "11"
+   },
+   {
+    "rang": "10",
+    "num": 6,
+    "cheval": "Monty Saga",
+    "jockey": "T. Andrieux",
+    "poids": "68,5",
+    "ecart": "5 ½ L",
+    "cote": "11"
+   },
+   {
+    "rang": "11",
+    "num": 4,
+    "cheval": "Ding Ding Dong",
+    "jockey": "A. de Chitray",
+    "poids": "69,5",
+    "ecart": "10 L",
+    "cote": "16"
+   },
+   {
+    "rang": "AR",
+    "num": 7,
+    "cheval": "Celtior",
+    "jockey": "Mlle L. Lebeurrier",
+    "poids": "68",
+    "ecart": "–",
+    "cote": "39"
+   },
+   {
+    "rang": "AR",
+    "num": 8,
+    "cheval": "Follow Me Soldier",
+    "jockey": "G. Siaffa",
+    "poids": "68",
+    "ecart": "–",
+    "cote": "51"
+   },
+   {
+    "rang": "AR",
+    "num": 11,
+    "cheval": "In Extenso",
+    "jockey": "B. Claudic",
+    "poids": "67,5",
+    "ecart": "–",
+    "cote": "73"
+   },
+   {
+    "rang": "AR",
+    "num": 16,
+    "cheval": "Brother Bernard",
+    "jockey": "C. Lefebvre",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "19"
+   }
+  ]
+ },
+ "2020": {
+  "partants": 15,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 16,
+    "cheval": "Bonaparte Sizing",
+    "jockey": "M. Regairaz",
+    "poids": "67",
+    "ecart": "–",
+    "cote": "6,5"
+   },
+   {
+    "rang": "2",
+    "num": 10,
+    "cheval": "Folly Foot",
+    "jockey": "M. Farcinade",
+    "poids": "68",
+    "ecart": "2 ½ L",
+    "cote": "≈ 9,4"
+   },
+   {
+    "rang": "3",
+    "num": 14,
+    "cheval": "Anouma Freedom",
+    "jockey": "Mlle N. Desoutter",
+    "poids": "67",
+    "ecart": "3 ½ L",
+    "cote": "≈ 29"
+   },
+   {
+    "rang": "4",
+    "num": 15,
+    "cheval": "Beauté Promise",
+    "jockey": "B. Lestrade",
+    "poids": "67",
+    "ecart": "1 ½ L",
+    "cote": "≈ 12"
+   },
+   {
+    "rang": "5",
+    "num": 9,
+    "cheval": "Rock The Race",
+    "jockey": "L. Philipperon",
+    "poids": "69",
+    "ecart": "Courte enc.",
+    "cote": "≈ 15"
+   },
+   {
+    "rang": "6",
+    "num": 1,
+    "cheval": "My Maj",
+    "jockey": "J. Da Silva",
+    "poids": "72",
+    "ecart": "1 ¼ L",
+    "cote": "≈ 30"
+   },
+   {
+    "rang": "7",
+    "num": 11,
+    "cheval": "Via Dolorosa",
+    "jockey": "T. Coutant",
+    "poids": "68",
+    "ecart": "1 ¼ L",
+    "cote": "–"
+   },
+   {
+    "rang": "8",
+    "num": 13,
+    "cheval": "Yellow Field",
+    "jockey": "A. de Chitray",
+    "poids": "67",
+    "ecart": "2 L",
+    "cote": "–"
+   },
+   {
+    "rang": "9",
+    "num": 4,
+    "cheval": "Via Maresca",
+    "jockey": "N. Gauffenic",
+    "poids": "70",
+    "ecart": "1 ¾ L",
+    "cote": "≈ 6,5"
+   },
+   {
+    "rang": "10",
+    "num": 7,
+    "cheval": "Feu d'Artifice",
+    "jockey": "G. Masure",
+    "poids": "–",
+    "ecart": "3 L",
+    "cote": "–"
+   },
+   {
+    "rang": "11",
+    "num": 3,
+    "cheval": "Faucon du Bosc",
+    "jockey": "D. Ubeda",
+    "poids": "70",
+    "ecart": "2 ½ L",
+    "cote": "–"
+   },
+   {
+    "rang": "12",
+    "num": 5,
+    "cheval": "Éclair du Maffray",
+    "jockey": "R. Mayeur",
+    "poids": "–",
+    "ecart": "3 L",
+    "cote": "–"
+   },
+   {
+    "rang": "13",
+    "num": 2,
+    "cheval": "Henry Brulard",
+    "jockey": "D. Mescam",
+    "poids": "71,5",
+    "ecart": "30 L",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 6,
+    "cheval": "December",
+    "jockey": "J. Plouganou",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 8,
+    "cheval": "Emirat",
+    "jockey": "F. de Giles",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   }
+  ]
+ },
+ "2019": {
+  "partants": 16,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 7,
+    "cheval": "Zarisk",
+    "jockey": "D. Mescam",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "18,9"
+   },
+   {
+    "rang": "2",
+    "num": 12,
+    "cheval": "Yellow Field",
+    "jockey": "A. de Chitray",
+    "poids": "64",
+    "ecart": "Encolure",
+    "cote": "≈ 11"
+   },
+   {
+    "rang": "3",
+    "num": 6,
+    "cheval": "My Maj",
+    "jockey": "Mlle N. Desoutter",
+    "poids": "67",
+    "ecart": "Courte enc.",
+    "cote": "≈ 75"
+   },
+   {
+    "rang": "4",
+    "num": 8,
+    "cheval": "Sampark",
+    "jockey": "T. Beaurain",
+    "poids": "66",
+    "ecart": "1 ¼ L",
+    "cote": "4,8"
+   },
+   {
+    "rang": "5",
+    "num": 15,
+    "cheval": "Crédo des Obeaux",
+    "jockey": "T. Stromboni",
+    "poids": "64",
+    "ecart": "9 L",
+    "cote": "≈ 22"
+   },
+   {
+    "rang": "6",
+    "num": 1,
+    "cheval": "Black Luna",
+    "jockey": "K. Dubourg",
+    "poids": "72",
+    "ecart": "3 ½ L",
+    "cote": "≈ 14"
+   },
+   {
+    "rang": "7",
+    "num": 13,
+    "cheval": "Mille Rubis",
+    "jockey": "R. Schmidlin",
+    "poids": "64",
+    "ecart": "¾ L",
+    "cote": "≈ 51"
+   },
+   {
+    "rang": "8",
+    "num": 5,
+    "cheval": "Montgeroult",
+    "jockey": "G. Ré",
+    "poids": "68",
+    "ecart": "Courte enc.",
+    "cote": "≈ 10"
+   },
+   {
+    "rang": "9",
+    "num": 3,
+    "cheval": "Foreign Flower",
+    "jockey": "L. Philipperon",
+    "poids": "69",
+    "ecart": "9 L",
+    "cote": "≈ 13"
+   },
+   {
+    "rang": "AR",
+    "num": 2,
+    "cheval": "Dandy du Seuil",
+    "jockey": "F. de Giles",
+    "poids": "69",
+    "ecart": "–",
+    "cote": "≈ 12"
+   },
+   {
+    "rang": "AR",
+    "num": 4,
+    "cheval": "Calayan",
+    "jockey": "C. Lefebvre",
+    "poids": "68",
+    "ecart": "–",
+    "cote": "4,8"
+   },
+   {
+    "rang": "AR",
+    "num": 9,
+    "cheval": "Diva d'Athom",
+    "jockey": "A. Poirier",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "≈ 17"
+   },
+   {
+    "rang": "AR",
+    "num": 10,
+    "cheval": "Pagomix",
+    "jockey": "A. Gasnier",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 11,
+    "cheval": "Rasique",
+    "jockey": "B. Berenguer",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 14,
+    "cheval": "Chris de Beaumont",
+    "jockey": "S. Paillard",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "–"
+   },
+   {
+    "rang": "AR",
+    "num": 16,
+    "cheval": "Éclair du Maffray",
+    "jockey": "B. Meme",
+    "poids": "63",
+    "ecart": "–",
+    "cote": "≈ 12"
+   }
+  ]
+ },
+ "2018": {
+  "partants": 17,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 16,
+    "cheval": "Célèbre d'Allen",
+    "jockey": "F. de Giles",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "9,1"
+   },
+   {
+    "rang": "2",
+    "num": 13,
+    "cheval": "Kami Kaze",
+    "jockey": "F. Bayle",
+    "poids": "67",
+    "ecart": "2 L",
+    "cote": "≈ 18"
+   },
+   {
+    "rang": "3",
+    "num": 7,
+    "cheval": "Côte d'Azur",
+    "jockey": "R. Schmidlin",
+    "poids": "70",
+    "ecart": "1 ½ L",
+    "cote": "4,2"
+   },
+   {
+    "rang": "4",
+    "num": 18,
+    "cheval": "Ultranet",
+    "jockey": "E. Chazelle",
+    "poids": "65",
+    "ecart": "3 L",
+    "cote": "≈ 15"
+   },
+   {
+    "rang": "5",
+    "num": 2,
+    "cheval": "Sable Gris",
+    "jockey": "M. Regairaz",
+    "poids": "71",
+    "ecart": "1 ¼ L",
+    "cote": "≈ 13"
+   },
+   {
+    "rang": "6",
+    "num": 9,
+    "cheval": "Grand Trianon",
+    "jockey": "H. Bachelot",
+    "poids": "69",
+    "ecart": "1 L",
+    "cote": "≈ 9,5"
+   },
+   {
+    "rang": "7",
+    "num": 4,
+    "cheval": "Ci Blue",
+    "jockey": "G. Masure",
+    "poids": "70",
+    "ecart": "1 L",
+    "cote": "≈ 23"
+   },
+   {
+    "rang": "8",
+    "num": 15,
+    "cheval": "Olympic Torch",
+    "jockey": "J.-L. Beaunez",
+    "poids": "66",
+    "ecart": "Nez",
+    "cote": "≈ 21"
+   },
+   {
+    "rang": "9",
+    "num": 1,
+    "cheval": "My Maj",
+    "jockey": "Mlle N. Desoutter",
+    "poids": "72",
+    "ecart": "7 L",
+    "cote": "≈ 15"
+   },
+   {
+    "rang": "10",
+    "num": 6,
+    "cheval": "Tom Mix",
+    "jockey": "J. Charron",
+    "poids": "–",
+    "ecart": "Encolure",
+    "cote": "≈ 14"
+   },
+   {
+    "rang": "T",
+    "num": 17,
+    "cheval": "Realm Keeper",
+    "jockey": "M.-O. Belley",
+    "poids": "–",
+    "ecart": "–",
+    "cote": "≈ 8,7"
+   }
+  ]
+ },
+ "2017": {
+  "partants": 16,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 10,
+    "cheval": "Kami Kaze",
+    "jockey": "E. Bureller",
+    "poids": "63,5",
+    "ecart": "–",
+    "cote": "10,2"
+   },
+   {
+    "rang": "2",
+    "num": 3,
+    "cheval": "Boston Paris",
+    "jockey": "J. Ricou",
+    "poids": "68",
+    "ecart": "1 ¼ L",
+    "cote": "4,4"
+   },
+   {
+    "rang": "3",
+    "num": 1,
+    "cheval": "Silver Axe",
+    "jockey": "J.-L. Beaunez",
+    "poids": "72",
+    "ecart": "Courte enc.",
+    "cote": "7,8"
+   },
+   {
+    "rang": "4",
+    "num": 12,
+    "cheval": "Mukonzi Has",
+    "jockey": "D. Ubeda",
+    "poids": "62",
+    "ecart": "¾ L",
+    "cote": "18"
+   },
+   {
+    "rang": "5",
+    "num": 11,
+    "cheval": "Vic Royal",
+    "jockey": "S. Cossart",
+    "poids": "62",
+    "ecart": "2 L",
+    "cote": "15"
+   },
+   {
+    "rang": "6",
+    "num": 15,
+    "cheval": "Vauquoise",
+    "jockey": "M. Regairaz",
+    "poids": "62",
+    "ecart": "½ L",
+    "cote": "23"
+   },
+   {
+    "rang": "7",
+    "num": 14,
+    "cheval": "Limnoska",
+    "jockey": "G. Masure",
+    "poids": "62",
+    "ecart": "1 ½ L",
+    "cote": "33"
+   },
+   {
+    "rang": "8",
+    "num": 16,
+    "cheval": "Ferruccio",
+    "jockey": "K. Nabet",
+    "poids": "62,5",
+    "ecart": "Courte enc.",
+    "cote": "7,2"
+   },
+   {
+    "rang": "9",
+    "num": 8,
+    "cheval": "Mallorca",
+    "jockey": "L. Philipperon",
+    "poids": "65",
+    "ecart": "1 ¾ L",
+    "cote": "12"
+   },
+   {
+    "rang": "10",
+    "num": 2,
+    "cheval": "Rasique",
+    "jockey": "M. Delmares",
+    "poids": "70",
+    "ecart": "1 L",
+    "cote": "21"
+   },
+   {
+    "rang": "11",
+    "num": 13,
+    "cheval": "Malak El Hawa",
+    "jockey": "J. Claudic",
+    "poids": "62",
+    "ecart": "1 ¾ L",
+    "cote": "9,3"
+   },
+   {
+    "rang": "12",
+    "num": 7,
+    "cheval": "Coastalina",
+    "jockey": "J. Duchêne",
+    "poids": "66",
+    "ecart": "¾ L",
+    "cote": "59"
+   },
+   {
+    "rang": "13",
+    "num": 4,
+    "cheval": "Ultra Lucky",
+    "jockey": "O. Jouin",
+    "poids": "68",
+    "ecart": "4 L",
+    "cote": "27"
+   },
+   {
+    "rang": "14",
+    "num": 9,
+    "cheval": "Maranjou",
+    "jockey": "R. Schmidlin",
+    "poids": "65",
+    "ecart": "1 ½ L",
+    "cote": "35"
+   },
+   {
+    "rang": "15",
+    "num": 5,
+    "cheval": "Vlatan",
+    "jockey": "J. Plouganou",
+    "poids": "67",
+    "ecart": "8 L",
+    "cote": "17"
+   },
+   {
+    "rang": "AR",
+    "num": 6,
+    "cheval": "Dylaine",
+    "jockey": "S. Colas",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "45"
+   }
+  ]
+ },
+ "2016": {
+  "partants": 17,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 1,
+    "cheval": "Silver Axe",
+    "jockey": "J.-L. Beaunez",
+    "poids": "69",
+    "ecart": "–",
+    "cote": "5,1"
+   },
+   {
+    "rang": "2",
+    "num": 5,
+    "cheval": "Rouge Et Sage",
+    "jockey": "L. Philipperon",
+    "poids": "67",
+    "ecart": "1 ¾ L",
+    "cote": "13"
+   },
+   {
+    "rang": "3",
+    "num": 3,
+    "cheval": "News Reel",
+    "jockey": "M. Regairaz",
+    "poids": "69",
+    "ecart": "½ L",
+    "cote": "43"
+   },
+   {
+    "rang": "4",
+    "num": 15,
+    "cheval": "Vangel de Cerisy",
+    "jockey": "J.-C. Gagnon",
+    "poids": "64",
+    "ecart": "2 L",
+    "cote": "25"
+   },
+   {
+    "rang": "5",
+    "num": 11,
+    "cheval": "Devil Inside",
+    "jockey": "A. Duchêne",
+    "poids": "65",
+    "ecart": "7 L",
+    "cote": "7,5"
+   },
+   {
+    "rang": "6",
+    "num": 6,
+    "cheval": "Roli Talisker",
+    "jockey": "A. de Chitray",
+    "poids": "66",
+    "ecart": "6 L",
+    "cote": "14"
+   },
+   {
+    "rang": "7",
+    "num": 12,
+    "cheval": "Diamond Charm",
+    "jockey": "T. Beaurain",
+    "poids": "65",
+    "ecart": "2 L",
+    "cote": "14"
+   },
+   {
+    "rang": "8",
+    "num": 8,
+    "cheval": "Bullet Tooth",
+    "jockey": "J. Reveley",
+    "poids": "66",
+    "ecart": "12 L",
+    "cote": "8,4"
+   },
+   {
+    "rang": "9",
+    "num": 14,
+    "cheval": "Mukonzi Has",
+    "jockey": "A. Acker",
+    "poids": "64",
+    "ecart": "Courte enc.",
+    "cote": "9,3"
+   },
+   {
+    "rang": "10",
+    "num": 16,
+    "cheval": "Arusha Park",
+    "jockey": "L. Maceli",
+    "poids": "64",
+    "ecart": "18 L",
+    "cote": "58"
+   },
+   {
+    "rang": "11",
+    "num": 18,
+    "cheval": "Cuevo Especial",
+    "jockey": "M.-A. Billard",
+    "poids": "65",
+    "ecart": "1 ¼ L",
+    "cote": "27"
+   },
+   {
+    "rang": "AR",
+    "num": 4,
+    "cheval": "Meissen",
+    "jockey": "J. Rey",
+    "poids": "67,5",
+    "ecart": "–",
+    "cote": "78"
+   },
+   {
+    "rang": "AR",
+    "num": 7,
+    "cheval": "Grinamix",
+    "jockey": "J. Nattiez",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "10"
+   },
+   {
+    "rang": "AR",
+    "num": 9,
+    "cheval": "Argentier",
+    "jockey": "K. Nabet",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "36"
+   },
+   {
+    "rang": "AR",
+    "num": 10,
+    "cheval": "Lord Lyphard",
+    "jockey": "D. Delalande",
+    "poids": "65",
+    "ecart": "–",
+    "cote": "10"
+   },
+   {
+    "rang": "AR",
+    "num": 13,
+    "cheval": "Vanadium",
+    "jockey": "R. Schmidlin",
+    "poids": "65",
+    "ecart": "–",
+    "cote": "43"
+   },
+   {
+    "rang": "AR",
+    "num": 17,
+    "cheval": "Plaisir Fou",
+    "jockey": "J. Giron",
+    "poids": "64",
+    "ecart": "–",
+    "cote": "29"
+   }
+  ]
+ },
+ "2015": {
+  "partants": 18,
+  "lignes": [
+   {
+    "rang": "1",
+    "num": 17,
+    "cheval": "Mister Emily",
+    "jockey": "R. Schmidlin",
+    "poids": "63,5",
+    "ecart": "–",
+    "cote": "10,7"
+   },
+   {
+    "rang": "2",
+    "num": 1,
+    "cheval": "Silver Axe",
+    "jockey": "J.-L. Beaunez",
+    "poids": "72",
+    "ecart": "1 ¾ L",
+    "cote": "15"
+   },
+   {
+    "rang": "3",
+    "num": 14,
+    "cheval": "Adagio des Bordes",
+    "jockey": "D. Mescam",
+    "poids": "65",
+    "ecart": "5 L",
+    "cote": "5,7"
+   },
+   {
+    "rang": "4",
+    "num": 10,
+    "cheval": "Malak El Hawa",
+    "jockey": "L. Philipperon",
+    "poids": "66",
+    "ecart": "1 L",
+    "cote": "8,5"
+   },
+   {
+    "rang": "5",
+    "num": 12,
+    "cheval": "Blouspan",
+    "jockey": "B. Gelhay",
+    "poids": "66",
+    "ecart": "5 L",
+    "cote": "20"
+   },
+   {
+    "rang": "6",
+    "num": 3,
+    "cheval": "A Pleines Dents",
+    "jockey": "D. Cottin",
+    "poids": "71",
+    "ecart": "¾ L",
+    "cote": "14"
+   },
+   {
+    "rang": "7",
+    "num": 8,
+    "cheval": "Astre de Ballon",
+    "jockey": "S. Bourgois",
+    "poids": "67",
+    "ecart": "2 L",
+    "cote": "11"
+   },
+   {
+    "rang": "8",
+    "num": 6,
+    "cheval": "Vangel de Cerisy",
+    "jockey": "A. Betron",
+    "poids": "68",
+    "ecart": "1 ¼ L",
+    "cote": "20"
+   },
+   {
+    "rang": "9",
+    "num": 4,
+    "cheval": "Cayo de Pail",
+    "jockey": "J. Nattiez",
+    "poids": "69",
+    "ecart": "8 L",
+    "cote": "40"
+   },
+   {
+    "rang": "10",
+    "num": 11,
+    "cheval": "Danceur Brésilien",
+    "jockey": "K. Nabet",
+    "poids": "66",
+    "ecart": "2 L",
+    "cote": "8,5"
+   },
+   {
+    "rang": "11",
+    "num": 7,
+    "cheval": "Lamigo",
+    "jockey": "E. Chazelle",
+    "poids": "68",
+    "ecart": "Nez",
+    "cote": "23"
+   },
+   {
+    "rang": "12",
+    "num": 18,
+    "cheval": "Kingston",
+    "jockey": "Mlle N. Desoutter",
+    "poids": "63",
+    "ecart": "1 ¼ L",
+    "cote": "28"
+   },
+   {
+    "rang": "13",
+    "num": 2,
+    "cheval": "Poligroom",
+    "jockey": "J. Duchêne",
+    "poids": "72",
+    "ecart": "1 L",
+    "cote": "6,5"
+   },
+   {
+    "rang": "14",
+    "num": 5,
+    "cheval": "Perly de Clermont",
+    "jockey": "P.A. Carberry",
+    "poids": "68,5",
+    "ecart": "10 L",
+    "cote": "15"
+   },
+   {
+    "rang": "AR",
+    "num": 9,
+    "cheval": "Sun Zephir",
+    "jockey": "M. Regairaz",
+    "poids": "67",
+    "ecart": "–",
+    "cote": "69"
+   },
+   {
+    "rang": "T",
+    "num": 13,
+    "cheval": "Ultraji",
+    "jockey": "Y. Michaux",
+    "poids": "66",
+    "ecart": "–",
+    "cote": "68"
+   },
+   {
+    "rang": "AR",
+    "num": 15,
+    "cheval": "Vent d'Allier",
+    "jockey": "A. Lecordier",
+    "poids": "65",
+    "ecart": "–",
+    "cote": "77"
+   },
+   {
+    "rang": "AR",
+    "num": 16,
+    "cheval": "Sistadenn",
+    "jockey": "Y. Lecourt",
+    "poids": "64",
+    "ecart": "–",
+    "cote": "116"
+   }
+  ]
+ }
+}
