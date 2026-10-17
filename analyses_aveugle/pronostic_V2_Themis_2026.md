@@ -94,3 +94,50 @@ Le classement principal (section 2) **ne change pas**. Cette section ajoute les 
 | **E — Domenik Jet impose son rythme** | Domenik Jet, très rapide au départ (« prend la tête ou le leadership du wagon de deux »), s'empare de la tête. Eminent Kronos doit le suivre ou courir à l'extérieur sans être en tête. Domenik Jet résiste, comme lors de sa victoire du 20/09 sur la Grande Piste. | Le 6 en tête dès la descente, le 3 dans son dos ou à son épaule | **6 - 3 - 12 - 7 - 11** |
 
 Les 5 arrivées possibles (A à E) sont des hypothèses, sans probabilités chiffrées. **A reste l'arrivée principale.**
+
+---
+
+## 7. Résultat et confrontation (ajouté après la course — sections 1 à 6 inchangées)
+
+**Arrivée officielle (fournie) :** 4 - 11 - 7 - 6 - 13 - 15 - 9. Temps du vainqueur : 3'26"79 (2 850 m), soit environ 1'12"6 au km.
+**Inconnu :** l'ordre au-delà du 7e et la liste des disqualifiés (notamment le sort de 3 Eminent Kronos et 12 Jalendra de Malac).
+
+| Cheval | Rang prédit | Rang réel | Écart | Diagnostic |
+|---|---|---|---|---|
+| 4 Kiss Me Again | 8 | **1** | −7 | Sous-estimé |
+| 11 Readly Lavec | 4 | **2** | −2 | Bien classé |
+| 7 Kerosen du Gers | 6 | **3** | −3 | Sous-estimé |
+| 6 Domenik Jet | 2 | 4 | +2 | Bien classé |
+| 13 Colbert WF | 7 | 5 | −2 | Bien classé |
+| 15 Elegance Kronos | 5 | 6 | +1 | Bien classé |
+| 9 Max Occagnes | 12 | 7 | −5 | Sous-estimé |
+| 3 Eminent Kronos | 1 | 8e ou plus / DA ? | — | Échec du favori |
+| 12 Jalendra de Malac | 3 | 8e ou plus / DA ? | — | Surestimée |
+
+### Mesures
+
+| Mesure | V2 | Marché (17 h 47) |
+|---|---|---|
+| Gagnant = 1er choix | Non (gagnant prédit 8e) | Non (gagnant 5e du marché) |
+| Chevaux du podium dans le top 3 | 0 / 3 | 0 / 3 |
+| Chevaux des 5 premiers dans le top 5 | 2 / 5 | 3 / 5 |
+| Chevaux des 7 premiers dans le top 7 | 5 / 7 | 5 / 7 |
+
+### Écarts volontaires au marché
+
+| Écart | Résultat | Verdict |
+|---|---|---|
+| 11 Readly Lavec monté (8e → 4e) | 2e | ✅ Justifié (forme gagnante + D4) |
+| 7 Kerosen du Gers descendu (4e → 6e) | 3e | ❌ Faux (pénalité de ferrure partielle) |
+| 4 Kiss Me Again descendu (5e → 8e) | **1er** | ❌ Faux (pénalité de ferrure partielle + 1 D) |
+| 1 Tretiak descendu (9e → 10e) | hors des 7 premiers | Non mesurable précisément |
+
+### Scénarios (5 premiers en commun avec l'arrivée)
+A : 2 · B : 2 · **C (course lente, les chevaux placés devant résistent) : 3** · **D (favori éliminé) : 3** · **E : 3**. Aucun scénario ne donnait le gagnant. Kiss Me Again n'apparaissait que dans le C (4e).
+
+### Diagnostic
+- **La règle « ferrure partielle » (D1) a échoué deux fois** : les deux PADP finissent 1er et 3e. Dans le corpus, elle reposait sur 3 podiums sur 42 chevaux. Avec ce soir : 5 podiums sur 47. La règle n'est pas invalidée par une seule course, mais **la pénalité était trop forte** quand le cheval avait d'autres arguments.
+- **Facteur absent de la méthode : la victoire sur le parcours exact.** Kiss Me Again avait gagné le Prix de Cognac sur 2 850 m Grande Piste. C'était dans les données, mais aucune règle V2 ne l'utilisait. → **hypothèse à tester**, pas une règle.
+- **Kiss Me Again sortait peut-être d'une opération du cornage** (information contestée dans la fiche) : *information ambiguë*, impossible à trancher avant la course.
+- **Le scénario « dominant » (S1) échoue** : favoris à 2,1 ou moins, maintenant 3 victoires sur 4. Les doutes sur la dernière course d'Eminent Kronos étaient signalés comme risque principal.
+- **Readly Lavec** : le seul écart positif au marché, et il a fonctionné.
