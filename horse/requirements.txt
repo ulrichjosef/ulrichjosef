@@ -1,0 +1,4 @@
+# Compatibility entry point for pip. Direct dependencies live in pyproject.toml;
+# uv.lock is authoritative and requirements.lock is its runtime-only export.
+# Development/validation tools: .\scripts\tooling.ps1 setup
+-r requirements.lock
