@@ -1,0 +1,2 @@
+.hyperresearch/*.db-wal
+.hyperresearch/*.db-shm
